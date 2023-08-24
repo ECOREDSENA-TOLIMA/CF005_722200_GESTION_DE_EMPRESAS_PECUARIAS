@@ -146,11 +146,11 @@
             figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema4/8.jpg', alt='Texto que describa la imagen')
           .col-lg-7
-            .tarjeta.p-3.mb-1(style="background-color:#3B5620")(data-aos="flip-up")
+            .cajon.p-3.mb-1(style="background-color:#3B5620")(data-aos="flip-up")
               p.offset-1.text-small(style="color:#FFFAD0")(data-aos="fade-left") ▪	Fecha de producción.
-            .tarjeta.p-3.mb-1(style="background-color:#3B5620")(data-aos="flip-up")
+            .cajon.p-3.mb-1(style="background-color:#3B5620")(data-aos="flip-up")
               p.offset-1.text-small(style="color:#FFFAD0")(data-aos="fade-left") ▪	Nombre del producto.
-            .tarjeta.p-3.mb-1(style="background-color:#3B5620")(data-aos="flip-up")
+            .cajon.p-3.mb-1(style="background-color:#3B5620")(data-aos="flip-up")
               p.offset-1.text-small(style="color:#FFFAD0")(data-aos="fade-left") ▪	Peso por producir. 
 
     .row.justify-content-center
@@ -158,7 +158,7 @@
         p.mb-5(data-aos="fade-left") Con todo lo mencionado anteriormente, se le invita a observar el siguiente mapa de distribución de procesos de elaboración de raciones animales. Identificar esto es fundamental para comprender los tiempos de elaboración de las raciones.
 
     .titulo-sexto.color-acento-contenido.offset-2
-      h5 Figura 4
+      h5 Figura 8
       span #[em Mapa de distribución de procesos]
     
     .row.justify-content-center.mt-5

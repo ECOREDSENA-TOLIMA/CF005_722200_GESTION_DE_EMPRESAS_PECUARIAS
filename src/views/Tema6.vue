@@ -29,15 +29,79 @@
                     span Ver video
                     i.fas.fa-video
 
-    p(data-aos="fade-left") Existen trabajos que, por sus condiciones, exponen al trabajador a un peligro que puede generar una enfermedad o lesión. Algunos riesgos existentes son: 
+    p.mb-5(data-aos="fade-left") Existen trabajos que, por sus condiciones, exponen al trabajador a un peligro que puede generar una enfermedad o lesión. Algunos riesgos existentes son: 
 
+    TabsB.color-acento-contenido.mb-5(data-aos="flip-up")
+      .py-4.py-md-5(titulo="Riesgos físicos")
+        .row.justify-content-center.align-items-center
+          .col-md-3
+            figure
+              img(src='@/assets/curso/temas/tema6/9.svg', alt='Texto que describa la imagen')
+          .col-md-4.mb-4.mb-md-0.offset-2
+            h4 Riesgos físicos
+            p Es la posibilidad que existe de sufrir un daño corporal en diferentes grados de intensidad; entre los principales riesgos físicos se encuentran la exposición a diferentes temperaturas extremas (calor o frío), exposición a fuertes ruidos por tiempos prolongados, tipos de movimientos que generen vibraciones, donde se ven afectadas las articulaciones y la presión arterial, el sometimiento a iluminaciones (oscuridad y deslumbramiento), radiación ionizante y no ionizante, y manipulación de maquinaria pesada.
+
+      .py-4.py-md-5(titulo="Riesgos biológicos")
+        .row.justify-content-center.align-items-center
+          .col-md-3
+            figure
+              img(src='@/assets/curso/temas/tema6/10.svg', alt='Texto que describa la imagen')
+          .col-md-4.mb-4.mb-md-0.offset-2
+            h4 Riesgos biológicos
+            p Son todos los que, por presencia de organismos o microorganismos (bacterias, hongos, virus o parásitos), pueden afectar la salud en un entorno laboral, pueden causar enfermedad temporal, permanente o la muerte. Existen trabajos que, por sus condiciones, se consideran de alto riesgo biológico; entre estos, los profesionales de la salud, agropecuarios y biológicos.
+
+      .py-4.py-md-5(titulo="Riesgos químicos")
+        .row.justify-content-center.align-items-center
+          .col-md-3
+            figure
+              img(src='@/assets/curso/temas/tema6/11.svg', alt='Texto que describa la imagen')
+          .col-md-4.mb-4.mb-md-0.offset-2
+            h4 Riesgos químicos
+            p Aquellas condiciones que pueden afectar la salud de un trabajador por contacto no controlado con agentes químicos; pueden ser por inhalación, ingestión o absorción de sustancias nocivas para la salud.
+
+      .py-4.py-md-5(titulo="Riesgos ergonómicos")
+        .row.justify-content-center.align-items-center
+          .col-md-3
+            figure
+              img(src='@/assets/curso/temas/tema6/12.svg', alt='Texto que describa la imagen')
+          .col-md-4.mb-4.mb-md-0.offset-2
+            h4 Riesgos ergonómicos
+            p En su mayoría, el riesgo ergonómico se da por posturas incorrectas en trabajos de oficina que son sedentarios o trabajos que son repetitivos en sus movimientos, y que con el tiempo pueden causar un gran daño y lesiones a nivel musculo esquelético y generar dolores por diferentes lesiones; también se encuentra el levantamiento excesivo de peso con o sin una técnica adecuada.
+
+      .py-4.py-md-5(titulo="Riesgos psicosociales")
+        .row.justify-content-center.align-items-center
+          .col-md-3
+            figure
+              img(src='@/assets/curso/temas/tema6/13.svg', alt='Texto que describa la imagen')
+          .col-md-4.mb-4.mb-md-0.offset-2
+            h4 Riesgos psicosociales
+            p Afectan de manera notable la salud de los trabajadores y se derivan de las deficiencias en el planteamiento, la organización y la gestión del trabajo, así como de un nulo entorno social en el lugar de trabajo. Todo esto puede generar resultados psicológicos, físicos y sociales negativos, como el estrés laboral, el agotamiento o la depresión en la persona; para prevenirlo, es importante las pausas activas en el trabajo y respetar los horarios laborales.
+
+      .py-4.py-md-5(titulo="Riesgos ambientales")
+        .row.justify-content-center.align-items-center
+          .col-md-3
+            figure
+              img(src='@/assets/curso/temas/tema6/15.svg', alt='Texto que describa la imagen')
+          .col-md-4.mb-4.mb-md-0.offset-2
+            h4 Riesgos ambientales
+            p Son todos aquellos que no se pueden controlar, como la probabilidad de que ocurra una catástrofe, un evento propio de la naturaleza o por acción del hombre. Existen riesgos naturales (todos aquellos riesgos geológicos) y riesgos antrópicos (aquellas circunstancias causadas por las acciones del ser humano).
+
+      .py-4.py-md-5(titulo="Riesgos mecánicos")
+        .row.justify-content-center.align-items-center
+          .col-md-3
+            figure
+              img(src='@/assets/curso/temas/tema6/14.svg', alt='Texto que describa la imagen')
+          .col-md-4.mb-4.mb-md-0.offset-2
+            h4 Riesgos mecánicos
+            p Conjunto de eventos que pueden causar daño a un trabajador, como quemaduras, cortes, golpes, entre otros; en su mayoría, se presentan por la manipulación de herramientas y vehículos.        
+        
     p(data-aos="fade-left") Cuando se habla de que existe un peligro, se refiere a una condición potencial, que puede provocar daños en la salud, y riesgo es la probabilidad de exposición a un evento peligroso, es la consecuencia del peligro. En la siguiente tabla, se hace una comparación entre peligros y riesgos. Obsérvela.
 
     .titulo-sexto.color-acento-contenido.offset-1.mt-5.mb-5
       h5 Tabla 3 
       span #[em Peligro y riesgos]
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="flip-up")
       .col-lg-8
         .tabla-b.color-acento-contenido.mb-5
           .tabla-b__header
@@ -59,7 +123,7 @@
               th Radiación 
               td Alteraciones en la piel y deshidratación. 
 
-    .row.justify-content-center.mt-5
+    .row.justify-content-center.mt-5(data-aos="flip-up")
       .col-lg-8
         .tabla-b.color-acento-contenido.mb-5
           .tabla-b__header
@@ -75,7 +139,7 @@
               th Roedores e insectos 
               td Enfermedades infectocontagiosas o virales.
 
-    .row.justify-content-center.mt-5
+    .row.justify-content-center.mt-5(data-aos="flip-up")
       .col-lg-8
         .tabla-b.color-acento-contenido.mb-5
           .tabla-b__header
@@ -88,7 +152,7 @@
               td Gases, vapores, partículas de diferentes materiales, humos metálicos
               td Cefaleas, náuseas, vómitos, irritaciones en diferentes sistemas, quemaduras, asfixia, alteración cardiovascular, muerte.
 
-    .row.justify-content-center.mt-5
+    .row.justify-content-center.mt-5(data-aos="flip-up")
       .col-lg-8
         .tabla-b.color-acento-contenido.mb-5
           .tabla-b__header
@@ -101,7 +165,7 @@
               td Manejo de cargas, movimientos repetitivos y sobreesfuerzo
               td Trauma acumulativo, afección en sistema musculoesquelético, lesiones a nivel de columna vertebral, alteración en sistema cardiovascular. 
 
-    .row.justify-content-center.mt-5
+    .row.justify-content-center.mt-5(data-aos="flip-up")
       .col-lg-8
         .tabla-b.color-acento-contenido.mb-5
           .tabla-b__header
@@ -114,7 +178,7 @@
               td Condiciones intralaborales
               td Estrés, depresión y ansiedad.
 
-    .row.justify-content-center.mt-5
+    .row.justify-content-center.mt-5(data-aos="flip-up")
       .col-lg-8
         .tabla-b.color-acento-contenido.mb-5
           .tabla-b__header

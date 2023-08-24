@@ -117,6 +117,9 @@
               h4 Diferencias entre el análisis proximal y el método de #[b “van Soest”]
               p El análisis proximal no diferencia entre el componente de hemicelulosa y lignina (fibras insolubles), unificándolo todo en el extracto libre de nitrógeno, al lado de los carbohidratos (fuente de energía).
             .col-md-6
+              .titulo-sexto.color-acento-contenido
+                h5 Figura 5
+                span #[em Diferencias entre el análisis proximal y método de Van Soest]
               figure
                 img(src='@/assets/curso/temas/tema3/7.svg', alt='Texto que describa la imagen')
 
@@ -192,7 +195,7 @@
         p Sumado a lo expuesto, se le sugiere observar el siguiente gráfico, que presenta la distribución de la energía.
 
     .titulo-sexto.color-acento-contenido.offset-2
-      h5 Figura 3
+      h5 Figura 6
       span #[em Distribución de la energía]
 
     .row.justify-content-center.align-items-center.mt-5.mb-5
@@ -212,6 +215,10 @@
         p(data-aos="fade-left") Es un método de formulación de raciones de elaboración manual, en el cual se utilizan las proteínas brutas de dos materias primas, donde es importante contar con una fuente energética y una fuente proteica. Se debe realizar un cuadro, donde se separan los alimentos, la proteína bruta del alimento, la concentración deseada, las partes y proporción de las fuentes alimenticias. Posterior a esto, se toma la proteína bruta del maíz, cuyo valor es 7.5%, y la proteína bruta de la soja tostada, que es de 36,8%; donde el maíz cumple el requerimiento energético y la soja tostada, el proteico. Seguidamente, se elige la concentración deseada, según el requerimiento del animal; en este caso, será de 18%. Teniendo estos valores, se procede a restar los valores de proteína bruta y concentración deseada; es importante restar primero el número mayor, ambos resultados se suman.
         p(data-aos="fade-left") Finalmente, se realiza una ecuación, donde se toma cada valor de las partes lo multiplicamos por 100 y lo dividimos por la sumatoria total de ambas partes; este resultado lo multiplicamos por la cantidad total de alimento a realizar, para obtener cuánto debemos agregar de dicho alimento. A continuación, se presenta un ejemplo:
 
+    .titulo-sexto.color-acento-contenido.offset-2
+      h5 Figura 7
+      span #[em Ejemplo método de cuadrado de Pearson Simple]
+    
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-10
         figure(data-aos="fade-right")
@@ -385,15 +392,15 @@
             figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema3/22.jpg', alt='Texto que describa la imagen')
           .col-lg-8
-            .tarjeta.p-3.mb-2(style="background-color:#3B5620")(data-aos="flip-up")
+            .cajon.p-3.mb-2(style="background-color:#3B5620")(data-aos="flip-up")
               p.text-small(style="color:#FFFAD0")(data-aos="fade-left") Los ingredientes de baja densidad deben agregarse primero. Entre ellos, se encuentra el heno o paja. Cuando se agrega de primero, se asegura una mezcla homogénea de los ingredientes y esto evita la selección por parte del animal.
-            .tarjeta.p-3.mb-2(style="background-color:#3B5620")(data-aos="flip-up")
+            .cajon.p-3.mb-2(style="background-color:#3B5620")(data-aos="flip-up")
               p.text-small(style="color:#FFFAD0")(data-aos="fade-left") Las materias primas que sean similares, frente a su tamaño y densidades, son propensas a mezclarse fácil y rápidamente. Por ejemplo: se pueden colocar los granos molidos, harinas, extruidos y pellets frente a densidades que son muy parecidas. Posteriormente a esto, se deben agregar los diferentes minerales y aditivos, todos los ingredientes que se usan en más bajas proporciones.
-            .tarjeta.p-3.mb-2(style="background-color:#3B5620")(data-aos="flip-up")
+            .cajon.p-3.mb-2(style="background-color:#3B5620")(data-aos="flip-up")
               p.text-small(style="color:#FFFAD0")(data-aos="fade-left") Cuando se adicionan minerales a las materias primas o ingredientes, se debe garantizar una mezcla homogénea. El tiempo de preparación es de tres (3) minutos.
-            .tarjeta.p-3.mb-2(style="background-color:#3B5620")(data-aos="flip-up")
+            .cajon.p-3.mb-2(style="background-color:#3B5620")(data-aos="flip-up")
               p.text-small(style="color:#FFFAD0")(data-aos="fade-left") Entregar al animal las materias primas húmedas con bajo componente aglutinante y alto nivel de humedad. Este puede ubicarse en el antepenúltimo orden.
-            .tarjeta.p-3.mb-2(style="background-color:#3B5620")(data-aos="flip-up")
+            .cajon.p-3.mb-2(style="background-color:#3B5620")(data-aos="flip-up")
               p.text-small(style="color:#FFFAD0")(data-aos="fade-left") Los subproductos viscosos, pegajosos y/o húmedos, como la melaza o el gluten, se pueden agregar a la ración animal de últimos. 
 
     separador 

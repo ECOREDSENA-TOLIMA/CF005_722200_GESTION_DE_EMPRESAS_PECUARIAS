@@ -170,6 +170,9 @@
     p(data-aos="fade-left") En la gestión del acopio y almacenamiento de las diferentes materias primas, es importante conocer e identificar sus características con respecto a la perecibilidad. La perecibilidad se define como el deterioro de las materias primas o alimentos por condiciones físicas, químicas o biológicas. Las características de la perecibilidad son generalmente determinadas por la vida útil del producto, es decir, por la duración de la materia prima en condiciones de calidad organolépticas óptimas y de calidad aceptable, ya sean de horas o días, a temperatura ambiente (Aguilar, 2012).
     p.mb-5(data-aos="fade-left") #[em Madigan] et al. (2000) definen el deterioro de materias primas o alimentos como cualquier cambio en el aspecto visual, olor o sabor de un producto alimenticio que lo hace inaceptable para el consumidor. Entendiendo esta afirmación de los autores con respecto a las condiciones de cambios o alteraciones, se deben comprender los factores que afectan directa o indirectamente el producto o materia prima. Observe el siguiente recurso de aprendizaje para más información. 
             
+    .titulo-sexto.color-acento-contenido.offset-2
+      h5 Figura 3
+      span #[em Agentes causales de alteraciones]
 
     ImagenInfograficaB.color-primario.mb-5
       template(v-slot:imagen)

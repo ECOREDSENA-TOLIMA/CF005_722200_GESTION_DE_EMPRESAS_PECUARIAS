@@ -113,6 +113,10 @@
 
     p.mb-5.mt-5(data-aos="fade-left") Otro concepto importante dentro de las características de higiene es el concepto del control de vectores, porque tanto los insectos como los diferentes animales representan un riesgo elevado de contaminación de materias primas y productos elaborados. A continuación, se presentan unas acciones que usted puede considerar en el control de vectores. Esto sin duda le ayudará a elaborar un plan.
 
+    .titulo-sexto.color-acento-contenido.offset-2
+      h5 Figura 4
+      span #[em Acciones para el control]
+    
     LineaTiempoA.color-primario.mb-5.text-white.text-small(:datos="datosLineaTiempoA")
 
     P(data-aos="fade-left") Las plagas son una seria amenaza para la inocuidad de los piensos. Pueden producirse infestaciones de plagas cuando hay locales e instalaciones que favorecen su proliferación, bien debido a la accesibilidad de alimentos o a la existencia de lugares de cobijo. (CESFAC, 2007).
