@@ -120,12 +120,12 @@
     .row.justify-content-center.desktop
       .col.md 
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema2/13.svg', alt='Acciones para el control')
+          img(src='@/assets/curso/temas/tema2/13.svg', alt='En la figura se observa como primer paso la busqueda de evidencia de la plaga, identificación de la plaga, recoger información de la zona a controlar, localización de los refugios y zonas de riesgo, evaluación de magnitud de la plaga, planificación de la intervención.')
 
     .row.justify-content-center.movil  
       .col.md 
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema2/14.svg', alt='Acciones para el control')
+          img(src='@/assets/curso/temas/tema2/14.svg', alt='En la figura se observa como primer paso la busqueda de evidencia de la plaga, identificación de la plaga, recoger información de la zona a controlar, localización de los refugios y zonas de riesgo, evaluación de magnitud de la plaga, planificación de la intervención')
     
     //- LineaTiempoA.color-primario.mb-5.text-white.text-small(:datos="datosLineaTiempoA")
 
@@ -214,8 +214,8 @@
                 figure
                   img(src='@/assets/curso/temas/tema2/9.svg', alt='Texto que describa la imagen')
               
-            h2.text-center.text-white Manuales
-            p.text-center.text-white Los métodos manuales son todos los métodos que consisten en frotar, cepillar y rociar con agua a grandes presiones, donde se puede realizar un barrido húmedo, con escobas, cepillos, enjuagado, y tratamiento con espumas o geles.
+            h2.text-center.text-white Mecánicos
+            p.text-center.text-white Los métodos mecánicos generalmente son aquellos que utilizan las fuerzas de remoción, ya sea del agua o el aire, para así extraer todo el material no deseado; dentro de estos, se encuentran el rociado de agua a presión, el uso de aspiradores, y el flujo de aire a presión.
           
           //- .col-md.tarjeta.color-primario.p-5
           //-   .row.justify-content-center.mb-4

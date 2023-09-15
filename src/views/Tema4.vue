@@ -158,19 +158,19 @@
         p.mb-5(data-aos="fade-left") Con todo lo mencionado anteriormente, se le invita a observar el siguiente mapa de distribución de procesos de elaboración de raciones animales. Identificar esto es fundamental para comprender los tiempos de elaboración de las raciones.
 
     .titulo-sexto.color-acento-contenido.offset-2
-      h5 Figura 6
+      h5 Figura 8
       span #[em Mapa de distribución de procesos]
     
     .row.justify-content-center.mt-5
       .col-lg-10.desktop
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema4/9.svg', alt='Mapa de distribución de procesos')
+          img(src='@/assets/curso/temas/tema4/9.svg', alt='En la figura se observa los pasos almacenamiento, recepción, formulación, pesaje de materias primas, clasificación de los granos, se requiere moler o no, molienda, mezclado, tratamiento limpieza de materia prima, pelletizado, excluido, enfriamiento, secado, empaque o consumo')
           figcaption Nota: Elaboración propia con base a Maya. S. (2016) Procesos de Producción de Alimentos balanceados Planta de Concentrados COLANTA.
 
     .row.justify-content-center.mt-5
       .col-lg-10.movil
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema4/10.svg', alt='Mapa de distribución de procesos')
+          img(src='@/assets/curso/temas/tema4/10.svg', alt='En la figura se observa los pasos almacenamiento, recepción, formulación, pesaje de materias primas, clasificación de los granos, se requiere moler o no, molienda, mezclado, tratamiento limpieza de materia prima, pelletizado, excluido, enfriamiento, secado, empaque o consumo')
           figcaption Nota: Elaboración propia con base a Maya. S. (2016) Procesos de Producción de Alimentos balanceados Planta de Concentrados COLANTA.
 
     

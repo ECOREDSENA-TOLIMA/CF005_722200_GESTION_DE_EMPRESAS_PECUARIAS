@@ -15,35 +15,35 @@
     .row.mb-5
       .col-md-3.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema1/1.svg' alt='Factores para alimentación animal')
+          img(src='@/assets/curso/temas/tema1/1.svg' alt='En la figura se observa la especie, requerimiento para cada especie, ingredientes o materias primas, costo, hábito del consumidor.')
           .tarjeta(style="background-color:#FFFAD0; width:100%")
             .text.p-4
               h2.text-center La  especie              
 
       .col-md-3.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema1/2.svg' alt='Factores para alimentación animal')
+          img(src='@/assets/curso/temas/tema1/2.svg' alt='En la figura se observa la especie, requerimiento para cada especie, ingredientes o materias primas, costo, hábito del consumidor.')
           .tarjeta(style="background-color:#FFFAD0; width:100%")
             .p-4
               h2.text-center Requerimiento para cada especie
 
       .col-md-3.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema1/2.svg' alt='Factores para alimentación animal')
+          img(src='@/assets/curso/temas/tema1/3.svg' alt='En la figura se observa la especie, requerimiento para cada especie, ingredientes o materias primas, costo, hábito del consumidor.')
           .tarjeta(style="background-color:#FFFAD0; width:100%")
             .p-4
               h2.text-center Ingredientes o materias primas
 
       .col-md-3.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema1/2.svg' alt='Factores para alimentación animal')
+          img(src='@/assets/curso/temas/tema1/4.svg' alt='En la figura se observa la especie, requerimiento para cada especie, ingredientes o materias primas, costo, hábito del consumidor.')
           .tarjeta(style="background-color:#FFFAD0; width:100%")
             .p-4
               h2.text-center Costo
 
       .col-md-3.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema1/2.svg' alt='Factores para alimentación animal')
+          img(src='@/assets/curso/temas/tema1/5.svg' alt='En la figura se observa la especie, requerimiento para cada especie, ingredientes o materias primas, costo, hábito del consumidor.')
           .tarjeta(style="background-color:#FFFAD0; width:100%")
             .p-4
               h2.text-center Hábito del consumidor

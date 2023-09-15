@@ -14,20 +14,27 @@
         p(data-aos="fade-left") La salud y la seguridad en el trabajo es la disciplina que trata de la prevención de las lesiones y enfermedades laborales. A través de ella, se fomentan los cuidados y la protección de los empleados en todas las áreas de trabajo, a través de seguimientos constantes y detallados en cada área.
         p(data-aos="fade-left") Cada trabajador forma un vínculo entre salud y trabajo y, por tanto, siempre se debe tener en cuenta la influencia que tiene sobre la salud de la persona la ejecución de ciertas actividades. 
 
-    .row.justify-content-center.mt-5
-      .col-lg-10
-        .tarjeta.p-4.mb-5(style="background-color:#144677")(data-aos="flip-up")
-          .row.justify-content-center.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/tema6/2.svg")
-            .col
-              .row.justify-content-center.align-items-center
-                .col
-                  p.text-small.text-white El conjunto de variables que se definen, desde la realización de la tarea y el entorno en que ésta se realiza, se denomina condiciones de trabajo, y están constituidas por factores del medio ambiente, de la tarea, de la organización y del individuo (Mintrabajo, 2016). Se le invita a observar el siguiente recurso educativo para más información.
-                .col-sm-auto
-                  a.boton.color-acento-contenido(href="https://www.youtube.com/embed/5CF3HZdu6Bc" target="_blank")
-                    span Ver video
-                    i.fas.fa-video
+    .row.justify-content-center.mt-5.mb-5
+      .col-md-12
+        figure(data-aos="fade-left")
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/5CF3HZdu6Bc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
+    
+    //- .row.justify-content-center.mt-5
+    //-   .col-lg-10
+    //-     .tarjeta.p-4.mb-5(style="background-color:#144677")(data-aos="flip-up")
+    //-       .row.justify-content-center.align-items-center
+    //-         .col-3.col-sm-2.col-lg-1
+    //-           img(src="@/assets/curso/temas/tema6/2.svg")
+    //-         .col
+    //-           .row.justify-content-center.align-items-center
+    //-             .col
+    //-               p.text-small.text-white El conjunto de variables que se definen, desde la realización de la tarea y el entorno en que ésta se realiza, se denomina condiciones de trabajo, y están constituidas por factores del medio ambiente, de la tarea, de la organización y del individuo (Mintrabajo, 2016). Se le invita a observar el siguiente recurso educativo para más información.
+    //-             .col-sm-auto
+    //-               a.boton.color-acento-contenido(href="https://www.youtube.com/embed/5CF3HZdu6Bc" target="_blank")
+    //-                 span Ver video
+    //-                 i.fas.fa-video
 
     p.mb-5(data-aos="fade-left") Existen trabajos que, por sus condiciones, exponen al trabajador a un peligro que puede generar una enfermedad o lesión. Algunos riesgos existentes son: 
 
