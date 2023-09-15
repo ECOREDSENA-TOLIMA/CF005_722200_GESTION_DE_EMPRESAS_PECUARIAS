@@ -12,52 +12,87 @@
     .titulo-sexto.color-acento-contenido.offset-2
       h5 Figura 1
       span #[em Factores para alimentación animal]
+    .row.mb-5
+      .col-md-3.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema1/1.svg' alt='Factores para alimentación animal')
+          .tarjeta(style="background-color:#FFFAD0; width:100%")
+            .text.p-4
+              h2.text-center La  especie              
 
-    .row.justify-content-center
-      .tarjeta.tarjeta.p-4.mb-5(style="background-color:#3B5620")(data-aos="flip-up")
-        .row.justify-content-center
-          .col-sm-6.col-lg-2.mb-4.mb-lg-0
-            .tarjeta--boton.color-primario.p-4(style="height:100%")
-              .row.justify-content-center.mb-3
-                .col-7
-                  figure
-                    img(src='@/assets/curso/temas/tema1/1.svg', alt='Texto que describa la imagen')
+      .col-md-3.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema1/2.svg' alt='Factores para alimentación animal')
+          .tarjeta(style="background-color:#FFFAD0; width:100%")
+            .p-4
+              h2.text-center Requerimiento para cada especie
 
-              h3.text-center La  especie
-          .col-sm-6.col-lg-2.mb-4.mb-lg-0
-            .tarjeta--boton.color-primario.p-4(style="height:100%")
-              .row.justify-content-center.mb-3
-                .col-7
-                  figure
-                    img(src='@/assets/curso/temas/tema1/2.svg', alt='Texto que describa la imagen')
+      .col-md-3.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema1/2.svg' alt='Factores para alimentación animal')
+          .tarjeta(style="background-color:#FFFAD0; width:100%")
+            .p-4
+              h2.text-center Ingredientes o materias primas
 
-              h3.text-center Requerimiento para cada especie
-          .col-sm-6.col-lg-2.mb-4.mb-lg-0
-            .tarjeta--boton.color-primario.p-4(style="height:100%")
-              .row.justify-content-center.mb-3
-                .col-7
-                  figure
-                    img(src='@/assets/curso/temas/tema1/3.svg', alt='Texto que describa la imagen')
+      .col-md-3.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema1/2.svg' alt='Factores para alimentación animal')
+          .tarjeta(style="background-color:#FFFAD0; width:100%")
+            .p-4
+              h2.text-center Costo
 
-              h3.text-center Ingredientes o materias primas
-          .col-sm-6.col-lg-2.mb-4.mb-lg-0
-            .tarjeta--boton.color-primario.p-4(style="height:100%")
-              .row.justify-content-center.mb-3
-                .col-7
-                  figure
-                    img(src='@/assets/curso/temas/tema1/4.svg', alt='Texto que describa la imagen')
+      .col-md-3.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema1/2.svg' alt='Factores para alimentación animal')
+          .tarjeta(style="background-color:#FFFAD0; width:100%")
+            .p-4
+              h2.text-center Hábito del consumidor
+    
+    //- .row.justify-content-center
+    //-   .tarjeta.tarjeta.p-4.mb-5(style="background-color:#3B5620")(data-aos="flip-up")
+    //-     .row.justify-content-center
+    //-       .col-sm-6.col-lg-2.mb-4.mb-lg-0
+    //-         .tarjeta--boton.color-primario.p-4(style="height:100%")
+    //-           .row.justify-content-center.mb-3
+    //-             .col-7
+    //-               figure
+    //-                 img(src='@/assets/curso/temas/tema1/1.svg', alt='Texto que describa la imagen')
 
-              h3.text-center Costo
-          .col-sm-6.col-lg-2.mb-4.mb-lg-0
-            .tarjeta--boton.color-primario.p-4(style="height:100%")
-              .row.justify-content-center.mb-3
-                .col-7
-                  figure
-                    img(src='@/assets/curso/temas/tema1/5.svg', alt='Texto que describa la imagen')
+    //-           h3.text-center La  especie
+    //-       .col-sm-6.col-lg-2.mb-4.mb-lg-0
+    //-         .tarjeta--boton.color-primario.p-4(style="height:100%")
+    //-           .row.justify-content-center.mb-3
+    //-             .col-7
+    //-               figure
+    //-                 img(src='@/assets/curso/temas/tema1/2.svg', alt='Texto que describa la imagen')
 
-              h3.text-center Hábito del consumidor
+    //-           h3.text-center Requerimiento para cada especie
+    //-       .col-sm-6.col-lg-2.mb-4.mb-lg-0
+    //-         .tarjeta--boton.color-primario.p-4(style="height:100%")
+    //-           .row.justify-content-center.mb-3
+    //-             .col-7
+    //-               figure
+    //-                 img(src='@/assets/curso/temas/tema1/3.svg', alt='Texto que describa la imagen')
 
-    .row.justify-content-center
+    //-           h3.text-center Ingredientes o materias primas
+    //-       .col-sm-6.col-lg-2.mb-4.mb-lg-0
+    //-         .tarjeta--boton.color-primario.p-4(style="height:100%")
+    //-           .row.justify-content-center.mb-3
+    //-             .col-7
+    //-               figure
+    //-                 img(src='@/assets/curso/temas/tema1/4.svg', alt='Texto que describa la imagen')
+
+    //-           h3.text-center Costo
+    //-       .col-sm-6.col-lg-2.mb-4.mb-lg-0
+    //-         .tarjeta--boton.color-primario.p-4(style="height:100%")
+    //-           .row.justify-content-center.mb-3
+    //-             .col-7
+    //-               figure
+    //-                 img(src='@/assets/curso/temas/tema1/5.svg', alt='Texto que describa la imagen')
+
+    //-           h3.text-center Hábito del consumidor
+
+    .row.justify-content-center.mt-5
       .col-10
         .tarjeta.tarjeta.p-4.mb-5(style="background-color:#DBF9BD")(data-aos="flip-up")
           p(data-aos="fade-left") Dentro de las materias primas, es importante conocer los requerimientos energéticos y proteicos de los animales; dependiendo de ellos, se realiza la elección de dichas materias primas.
@@ -67,11 +102,7 @@
         figure.mb-5(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema1/6.png', alt='Texto que describa la imagen')
       .col-lg-8
-        p(data-aos="fade-left") Las materias primas se pueden clasificar según su origen. Ellas son de origen vegetal, animal o mineral. Cada grupo aporta elementos nutricionales necesarios para el animal en su etapa de mantenimiento y producción. Se pueden nombrar también como macro ingredientes o micro ingredientes, de acuerdo con el valor nutricional aportado. Dentro de los macro ingredientes, se encuentran los ingredientes con un valor de proteínas, lípidos y glucósidos altos. En los micro ingredientes, se encuentran todos los ingredientes que aportan vitaminas y minerales. Cabe mencionar que en algunos casos las medicinas se utilizan en menos proporciones para ello. A continuación, se le sugiere identificar algunas definiciones y características de las materias primas.
-
-    .titulo-sexto.color-acento-contenido.offset-2
-      h5 Figura 2
-      span #[em Clasificación de las diferentes materias primas]
+        p(data-aos="fade-left") Las materias primas pueden clasificarse según su origen. Ellas son de origen vegetal, animal o mineral. Cada grupo aporta elementos nutricionales necesarios para el animal en su etapa de mantenimiento y producción. Se pueden nombrar de acuerdo con el valor nutricional aportado: los #[b macro ingredientes], que son aquellos con un alto valor de proteínas, lípidos y glucósidos altos, o los #[b micro ingredientes], en donde se encuentran todos aquellos que aportan vitaminas y minerales. Cabe mencionar que en algunos casos las medicinas se utilizan en menor proporción para no interferir con este tipo de nutrientes. A continuación, se le sugiere identificar algunas definiciones y características de las materias primas.
 
     .row.mt-5.justify-content-center
       .col-lg-10
@@ -110,6 +141,8 @@
             p.text-bold Derivados
             p Harinas de hueso-Sangre-Pezuña-Pelo. 
 
+    p.mb-5(data-aos="fade-left") Comprendida la clasificación de las materias primas, es necesario reconocer los fundamentos de la nutrición animal, que se divide en compuestos orgánicos e inorgánicos. Cuando se hace referencia a los primeros, se encuentran nitrógenos, lípidos, carbohidratos y vitaminas. En los segundos yacen principalmente los minerales.
+    
     .row.justify-content-center 
       .col-lg-10
         .tarjeta.p-4.mb-5(style="background-color:#144677")(data-aos="flip-up")
@@ -119,7 +152,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.text-small(style="color:white") Comprendida la clasificación de las materias primas, es necesario reconocer los fundamentos de la nutrición animal, que se divide en compuestos orgánicos e inorgánicos. Cuando se hace referencia a los primeros, se encuentran nitrógenos, lípidos, carbohidratos y vitaminas. En los segundos yacen principalmente los minerales. Para ampliar su conocimiento, se ha elegido el artículo “Compuestos orgánicos e inorgánicos” de Rodríguez et al. (2002). En el texto citado, se presenta la diferenciación de los componentes orgánicos e inorgánicos, las principales características de cada componente, y sus principales aportes a los diferentes organismos vivos.
+                  p.text-small(style="color:white") Para ampliar su conocimiento, se ha elegido el artículo “Compuestos orgánicos e inorgánicos” de Rodríguez et al. (2002). En el texto citado, se presenta la diferenciación de los componentes orgánicos e inorgánicos, las principales características de cada componente, y sus principales aportes a los diferentes organismos vivos.
                 .col-sm-auto
                   a.boton.color-acento-contenido(href="https://go-gale-com.bdigital.sena.edu.co/ps/i.do?p=GVRL&u=sena&id=GALE|CX3003700023&v=2.1&it=r" target="_blank")
                     span Enlace web
@@ -170,10 +203,6 @@
     p(data-aos="fade-left") En la gestión del acopio y almacenamiento de las diferentes materias primas, es importante conocer e identificar sus características con respecto a la perecibilidad. La perecibilidad se define como el deterioro de las materias primas o alimentos por condiciones físicas, químicas o biológicas. Las características de la perecibilidad son generalmente determinadas por la vida útil del producto, es decir, por la duración de la materia prima en condiciones de calidad organolépticas óptimas y de calidad aceptable, ya sean de horas o días, a temperatura ambiente (Aguilar, 2012).
     p.mb-5(data-aos="fade-left") #[em Madigan] et al. (2000) definen el deterioro de materias primas o alimentos como cualquier cambio en el aspecto visual, olor o sabor de un producto alimenticio que lo hace inaceptable para el consumidor. Entendiendo esta afirmación de los autores con respecto a las condiciones de cambios o alteraciones, se deben comprender los factores que afectan directa o indirectamente el producto o materia prima. Observe el siguiente recurso de aprendizaje para más información. 
             
-    .titulo-sexto.color-acento-contenido.offset-2
-      h5 Figura 3
-      span #[em Agentes causales de alteraciones]
-
     ImagenInfograficaB.color-primario.mb-5
       template(v-slot:imagen)
         figure(data-aos="flip-up")
@@ -298,8 +327,7 @@
             img(src='@/assets/curso/temas/tema1/27.svg', alt='Texto que describa la imagen')
         .col-md-7.mb-4.mb-md-0.p-4
           p Esta técnica tiene como propósito la revisión de los ingredientes o materias primas solicitadas. Estas deben coincidir con la lista de solicitud y envío del proveedor. Usted puede identificar el contenido de los empaques o cajas porque deben tener una rotulación sobre número, fecha, lote y todas las características que informen su caducidad y registro.
-          p Antes de realizar la descarga, realice una leve inspección de los productos, en relación con el embalaje, cantidad, color, olor, textura, densidad, humedad, peso y temperatura de los productos. Si existe alguna alteración, haga el respectivo reporte.
-          p Cabe mencionar, en el momento de la recepción de materias primas o productos a granel, un muestreo de las materias. Tome de forma aleatoria un ¼ a ½ de materia. Haga una identificación y rotulación de esta actividad con estos aspectos: fecha de muestra, fecha de elaboración del producto, tipo de materia prima, fecha de caducidad. Con materias primas o ingredientes como aceites, grasas, entre otros, la muestra se debe realizar después de haber iniciado el descargue.
+          p Antes de realizar la descarga, realice una leve inspección de los productos, en relación con el embalaje, cantidad, color, olor, textura, densidad, humedad, peso y temperatura de los productos. Si existe alguna alteración, haga el respectivo reporte. Cabe mencionar, en el momento de la recepción de materias primas o productos a granel, un muestreo de las materias. Tome de forma aleatoria un ¼ a ½ de materia. Haga una identificación y rotulación de esta actividad con estos aspectos: fecha de muestra, fecha de elaboración del producto, tipo de materia prima, fecha de caducidad. Con materias primas o ingredientes como aceites, grasas, entre otros, la muestra se debe realizar después de haber iniciado el descargue.
           p Todas las muestras deben ser debidamente almacenadas, evitando la descomposición y destrozo por parte de roedores o insectos.
 
       .row.justify-content-center.align-items-center(titulo="Evaluación")

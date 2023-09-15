@@ -12,7 +12,7 @@
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema4/1.svg' alt='AvatarTop')
-          .tarjeta(style="background-color: #E2E8EC; height:100%; width:100%")
+          .tarjeta(style="background-color: #E6E9E3; height:100%; width:100%")
             .text-black.p-4
               h4.text-center Almacenamiento
               p En esta zona, usted puede encontrar: 
@@ -30,7 +30,7 @@
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema4/2.svg' alt='AvatarTop')
-          .tarjeta(style="background-color: #E2E8EC; height:100%")
+          .tarjeta(style="background-color: #E6E9E3; height:100%")
             .text-black.p-4
               h4.text-center Producción
               p Esta zona tiene como objetivo la producción de los alimentos de los animales, según sus características.  La producción se comprende desde la salida de la materia prima del almacén hasta su entrada al lugar de productos terminados.
@@ -38,7 +38,7 @@
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema4/3.svg' alt='AvatarTop')
-          .tarjeta(style="background-color: #E2E8EC; height:100%")
+          .tarjeta(style="background-color: #E6E9E3; height:100%")
             .text-black.p-4
               h4.text-center Comunes o del personal
               p En el contexto pecuario, es necesario destinar una zona para el personal de trabajo. Esta puede comprender: comedores, baños y cambios de indumentaria.
@@ -55,7 +55,7 @@
         p(data-aos="fade-left") Las empresas que gestionan raciones animales deben tener una zona suficiente para almacenar las materias primas, con el propósito de gestionar la materia prima en relación con: 1. Contaminación cruzada, 2. El orden, y 3. Productos a granel, terminados, envasados y empacados. Tener un lugar organizado y estibado facilita el tránsito, la limpieza, el muestreo y la inspección de la materia prima y los alimentos.  Los almacenes tienen:
 
     .row.mb-5.mt-5(data-aos="flip-up")
-      .col-md-6.col-lg.tarjeta--tabla.p-4
+      .col-md-6.col-lg.tarjeta--tabla.p-4(style="background-color: #DBF9BD")
         .row.justify-content-center.mb-3
           h2.text-center Básicas
           p #[b Carga y descarga]
@@ -65,7 +65,7 @@
           p #[b Manipulación o transporte]
           p Zona destinada a la manipulación de los alimentos o materias primas. Debe ser un lugar sin obstáculos y de tránsito fácil.
 
-      .col-md-6.col-lg.tarjeta--tabla.p-4
+      .col-md-6.col-lg.tarjeta--tabla.p-4(style="background-color: #FFFAD0")
         .row.justify-content-center.mb-3
           h2.text-center Complementarias 
           p Ellas son:
@@ -74,7 +74,7 @@
           p #[b Servicios higiénicos]
           p Zonas especializadas de limpieza y desinfección, baños.
           
-      .col-md-6.col-lg.tarjeta--tabla.p-4
+      .col-md-6.col-lg.tarjeta--tabla.p-4(style="background-color: #DBF9BD")
         .row.justify-content-center.mb-3
           h2.text-center Opcionales
           p #[b Área de productos en mal estado]
@@ -83,7 +83,7 @@
     p(data-aos="fade-left").mb-5 Dentro del área de almacenamiento, es importante guardar los alimentos y las materias primas según sus condiciones organolépticas. Existen varios tipos de almacenamiento, ellos son: 
 
     .tarjeta--container.row.mb-5(data-aos="flip-up")
-      .col-md.tarjeta.p-5(style="background-color: #DEF1F0")
+      .col-md.tarjeta.p-5(style="background-color: #FFFAD0")
         .row.justify-content-center.mb-4
           .col-4
             figure
@@ -158,13 +158,20 @@
         p.mb-5(data-aos="fade-left") Con todo lo mencionado anteriormente, se le invita a observar el siguiente mapa de distribución de procesos de elaboración de raciones animales. Identificar esto es fundamental para comprender los tiempos de elaboración de las raciones.
 
     .titulo-sexto.color-acento-contenido.offset-2
-      h5 Figura 8
+      h5 Figura 6
       span #[em Mapa de distribución de procesos]
     
     .row.justify-content-center.mt-5
-      .col-lg-10
+      .col-lg-10.desktop
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema4/9.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema4/9.svg', alt='Mapa de distribución de procesos')
+          figcaption Nota: Elaboración propia con base a Maya. S. (2016) Procesos de Producción de Alimentos balanceados Planta de Concentrados COLANTA.
+
+    .row.justify-content-center.mt-5
+      .col-lg-10.movil
+        figure(data-aos="fade-right")
+          img(src='@/assets/curso/temas/tema4/10.svg', alt='Mapa de distribución de procesos')
+          figcaption Nota: Elaboración propia con base a Maya. S. (2016) Procesos de Producción de Alimentos balanceados Planta de Concentrados COLANTA.
 
     
           

@@ -7,13 +7,12 @@
         span 3
       h1 Ración animal
 
-    .row.justify-content-center
+    .row.justify-content-center.align-items-center
       .col-lg-4
         figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema3/1.png', alt='Texto que describa la imagen')
       .col-lg-8
-        p(data-aos="fade-left") Una ración se define como una provisión diaria de alimento o forraje planeada para una dieta de un animal. Esta es determinada según su estado de desarrollo. Para la composición de esta dieta, se seleccionan materias primas o productos balanceados y que tienen una determinada concentración de ingredientes para la satisfacción de los requerimientos energéticos, proteicos y minerales de los animales. Es importante conocer las características nutricionales de un alimento para así identificar las interacciones que dicho alimento generará en el animal. La gran mayoría de materias primas provienen de los vegetales, que aportan valores nutricionales a un costo relativamente más económico. 
-        p(data-aos="fade-left") Dentro de los nutrientes que están en las dietas de los animales, se clasifican:
+        p(data-aos="fade-left") Una ración se define como una provisión diaria de alimento o forraje planeada para una dieta de un animal. Esta es determinada según su estado de desarrollo. Para la composición de esta dieta, se seleccionan materias primas o productos balanceados y que tienen una determinada concentración de ingredientes para la satisfacción de los requerimientos energéticos, proteicos y minerales de los animales. Es importante conocer las características nutricionales de un alimento para así identificar las interacciones que dicho alimento generará en el animal. La gran mayoría de materias primas provienen de los vegetales, que aportan valores nutricionales a un costo relativamente más económico. Dentro de los nutrientes que están en las dietas de los animales, se clasifican:
 
     .titulo-sexto.color-acento-contenido.offset-1.mt-5.mb-5
       h5 Tabla 2 #[em Nutrientes presentes en la dieta animal]
@@ -63,65 +62,107 @@
               td 
                 p.text-small Utilizados generalmente para dar mayor palatabilidad al alimento, digestibilidad, absorción, entre otros. 
 
-    p(data-aos="fade-left") Para la elaboración de raciones de los animales, es fundamental entender cada materia prima. Por ello, se debe hacer un análisis de la composición y la capacidad de los elementos nutricionales. En este sentido, existen dos métodos para dicho análisis. El primero es el método de análisis proximal (bromatológico), cuyo objetivo es detallar uno a uno los componentes importantes de las materias primas, para así realizar la mezcla de las raciones animales según sus necesidades básicas. Otro método es Van Soest, orientado al manejo de forrajes y pastos. Este método propone la separación de los componentes como la fibra. La diferencia entre los dos métodos es que el análisis proximal no descompone los componentes de la fibra, en primer lugar. A continuación, revise el siguiente recurso educativo para encontrar en cada método una opción de análisis de la materia prima.
+    p.mb-5(data-aos="fade-left") Para la elaboración de raciones de los animales, es fundamental entender cada materia prima. Por ello, se debe hacer un análisis de la composición y la capacidad de los elementos nutricionales. En este sentido, existen dos métodos para dicho análisis. El primero es el método de análisis proximal (bromatológico), cuyo objetivo es detallar uno a uno los componentes importantes de las materias primas, para así realizar la mezcla de las raciones animales según sus necesidades básicas. Otro método es Van Soest, orientado al manejo de forrajes y pastos. Este método propone la separación de los componentes como la fibra. La diferencia entre los dos métodos es que el análisis proximal no descompone los componentes de la fibra, en primer lugar. A continuación, revise el siguiente recurso educativo para encontrar en cada método una opción de análisis de la materia prima.
 
-    .row.justify-content-center.align-items-center(data-aos="flip-up")
-      .tarjeta.tarjeta--gris.p-4.mb-5
-        h4.titulo-cuarto Método #[em “proximal-weende”]
-        SlyderA(tipo="b")
-          .row.justify-content-center.align-items-center.p-4
-            .col-md-6.mb-4.mb-md-0
-              p En la actualidad, muchos de los alimentos o materias primas se describen utilizando el análisis #[em proximal], ya que realiza la separación completa de la humedad y el componente de materia seca. Este análisis utiliza una cantidad de 3 muestras.
-            .col-md-6
-              figure
-                img(src='@/assets/curso/temas/tema3/2.jpg', alt='Texto que describa la imagen')
-          .row.justify-content-center.align-items-center.p-4
-            .col-md-6.mb-4.mb-md-0
-              h4 Primera muestra
-              p Eleva la materia prima a  temperaturas entre 100 - 110 °C, con el objetivo de determinar su capacidad de humedad o agua. La materia seca contiene nutrientes, como son proteína bruta, extracto etéreo, cenizas, fibra bruta, extracto libre de nitrógeno, extracto no nitrogenado (carbohidratos- glucósidos solubles), siendo estos componentes la base fundamental para realizar y analizar los alimentos.
-            .col-md-6
-              figure
-                img(src='@/assets/curso/temas/tema3/3.jpg', alt='Texto que describa la imagen')
-          .row.justify-content-center.align-items-center.p-4
-            .col-md-6.mb-4.mb-md-0
-              h4 Segunda muestra
-              p Es utilizada para el análisis de la proteína cruda, siendo una de las más importantes hablando de nutrición animal. Lo que se determina es el nitrógeno total que se libera en una digestión química, multiplicado por el factor 6.25 proveniente de un cálculo realizado, donde 100 g de proteína contienen 16 g de nitrógeno, 100 ÷ 16 = 6.25, siendo este un valor constante. Como limitante de este análisis, está la no diferenciación entre el nitrógeno no proteico y el proteico, ya que el no proteico no es absorbido por los monogástricos.
-              p #[b Ejemplo:]  
-              p Proteína bruta 1 gramo de maíz --------- 7.68 % de nitrógeno 
-              p(style="margin:-2.5% 0;") % PB= 7.68 x 6.25 =48 % de proteína bruta.
+    .row.justify-content-center
+      .col-md-10.desktop 
+        figure
+          img(src='@/assets/curso/temas/tema3/32.svg', alt='Texto que describa la imagen')
 
-            .col-md-6
-              figure
-                img(src='@/assets/curso/temas/tema3/4.jpg', alt='Texto que describa la imagen')
-          .row.justify-content-center.align-items-center.p-4
-            .col-md-6.mb-4.mb-md-0
-              h4 Tercera muestra
-              p Se somete por medio de un disolvente a la extracción del extracto etéreo o componente grasa de la materia prima, teniendo en cuenta que se realiza la extracción de aceites y todos los componentes liposolubles. El restante se somete al componente ácido y, después, al componente alcalino, para obtener la fibra bruta o cruda.
-              p El extracto libre de nitrógeno se obtiene del faltante para llegar a 100%, después de los procedimientos anteriores, siendo estos principalmente los componentes glucósidos solubles.
-            .col-md-6
-              figure
-                img(src='@/assets/curso/temas/tema3/5.jpg', alt='Texto que describa la imagen')
+    .row.justify-content-center.movil 
+      .col-md-10.movil
+        figure
+          img(src='@/assets/curso/temas/tema3/33.svg', alt='Texto que describa la imagen')
 
-    .row.justify-content-center.align-items-center(data-aos="flip-up")
-      .tarjeta.tarjeta--gris.p-4.mb-5
-        h4.titulo-cuarto Método análisis de #[em “Van Soest”]
-        SlyderA(tipo="b")
-          .row.justify-content-center.align-items-center.p-4
-            .col-md-6.mb-4.mb-md-0
-              p Es utilizado en el manejo de forrajes y pastos. El método propone una separación de los componentes de la fibra que ayudan a determinar mejor cada uno, porque el análisis proximal no los diferencia como primer procedimiento para la determinación de estos componentes. El análisis de “Van Soest” realiza una separación de las capas fibrilares del forraje, por medio de una sustancia detergente neutra. El resultado de esto es llamado fibra detergente neutra (FDN) y el restante que desaparece se presume que es el componente digestible. Seguido a esto, al componente de hemicelulosa se le aplica una solución ácida detergente, la cual es digerida, y al resultado se le llama fibra detergente ácido. En el último paso, se oxida, para disolver la lignina, y se obtiene la celulosa como remanente, que después se incinera. Los pasos anteriores son calculados de acuerdo con su desaparición.
-            .col-md-6
-              figure
-                img(src='@/assets/curso/temas/tema3/6.jpg', alt='Texto que describa la imagen')
-          .row.justify-content-center.align-items-center.p-4
-            .col-md-6.mb-4.mb-md-0
-              h4 Diferencias entre el análisis proximal y el método de #[b “van Soest”]
-              p El análisis proximal no diferencia entre el componente de hemicelulosa y lignina (fibras insolubles), unificándolo todo en el extracto libre de nitrógeno, al lado de los carbohidratos (fuente de energía).
-            .col-md-6
-              .titulo-sexto.color-acento-contenido
-                h5 Figura 5
-                span #[em Diferencias entre el análisis proximal y método de Van Soest]
-              figure
-                img(src='@/assets/curso/temas/tema3/7.svg', alt='Texto que describa la imagen')
+    LineaTiempoD.color-acento-contenido.mb-5.mt-5
+      .row.justify-content-center.align-items-center(numero="1" titulo= "Método <i>“proximal-weende”</i>")
+        .col-md-7.mb-4.mb-md-0
+          p.text-small En la actualidad, muchos de los alimentos o materias primas se describen utilizando el análisis proximal, ya que realiza la separación completa de la humedad y el componente de materia seca. Este análisis utiliza una cantidad de 3 muestras. 
+          h6 ● Primera muestra
+          p.text-small Eleva la materia prima a temperaturas entre 100°C- 110 °C, con el objetivo de determinar su capacidad de humedad o agua. La materia seca contiene nutrientes, como: proteína bruta, extracto etéreo, cenizas, fibra bruta, extracto libre de nitrógeno, extracto no nitrogenado (carbohidratos- glucósidos solubles), siendo estos componentes la base fundamental para realizar y analizar los alimentos.
+        .col-md-5
+          figure
+            img(src='@/assets/curso/temas/tema3/34.jpg', alt='Texto que describa la imagen')
+        .col-md-12.mb-4.mb-md-0            
+          h6 ● Segunda muestra
+          p.text-small Es utilizada para el análisis de la proteína cruda, siendo una de las más importantes hablando de nutrición animal. Lo que se determina es el nitrógeno total que se libera en una digestión química, multiplicado por el factor 6.25 proveniente de un cálculo realizado, donde 100 g de proteína contienen 16 g de nitrógeno, 100 ÷ 16 = 6.25, siendo este un valor constante. Como limitante de este análisis, está la no diferenciación entre el nitrógeno no proteico y el proteico, ya que el no proteico no es absorbido por los monogástricos. 
+          p.text-small Ejemplo: 
+          figure.mb-3
+            img(src='@/assets/curso/temas/tema3/35.svg', alt='Texto que describa la imagen')
+
+          h6 ● Tercera muestra
+          p.text-small Se somete por medio de un disolvente a la extracción del extracto etéreo o componente grasa de la materia prima, teniendo en cuenta que se realiza la extracción de aceites y todos los componentes liposolubles. El restante se somete al componente ácido y, después, al componente alcalino, para obtener la fibra bruta o cruda. 
+          p.text-small El extracto libre de nitrógeno se obtiene del faltante para llegar a 100 %, después de los procedimientos anteriores, siendo estos principalmente los componentes glucósidos solubles.
+      
+      .row.justify-content-center(numero="2" titulo="Método análisis de “Van Soest”")
+        .col-md-12.mb-4.mb-md-0
+          p.text-small Es utilizado en el manejo de forrajes y pastos. El método propone una separación de los componentes de la fibra que ayudan a determinar mejor cada uno, porque el análisis proximal no los diferencia como primer procedimiento para la determinación de estos componentes. El análisis de “Van Soest” realiza una separación de las capas fibrilares del forraje, por medio de una sustancia detergente neutra. El resultado de esto es llamado fibra detergente neutra (FDN) y el restante que desaparece se presume que es el componente digestible. Seguido a esto, al componente de hemicelulosa se le aplica una solución ácida detergente, la cual es digerida, y al resultado se le llama fibra detergente ácido. En el último paso, se oxida, para disolver la lignina, y se obtiene la celulosa como remanente, que después se incinera. Los pasos anteriores son calculados de acuerdo con su desaparición.
+        .col-md-11
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 3
+            span #[em Diferencias entre el análisis proximal y método de Van Soest]
+          figure
+            img(src='@/assets/curso/temas/tema3/7.svg', alt='Diferencias entre el análisis proximal y método de Van Soest')
+        p.mt-5(data-aos="fade-left") El análisis proximal no diferencia entre el componente de hemicelulosa y lignina (fibras insolubles), unificándolo todo en el extracto libre de nitrógeno, al lado de los carbohidratos (fuente de energía).
+
+
+    //- .row.justify-content-center.align-items-center.mt-5(data-aos="flip-up")
+    //-   .tarjeta.tarjeta--gris.p-4.mb-5
+    //-     h4.titulo-cuarto Método #[em “proximal-weende”]
+    //-     SlyderA(tipo="b")
+    //-       .row.justify-content-center.align-items-center.p-4
+    //-         .col-md-6.mb-4.mb-md-0
+    //-           p En la actualidad, muchos de los alimentos o materias primas se describen utilizando el análisis #[em proximal], ya que realiza la separación completa de la humedad y el componente de materia seca. Este análisis utiliza una cantidad de 3 muestras.
+    //-         .col-md-6
+    //-           figure
+    //-             img(src='@/assets/curso/temas/tema3/2.jpg', alt='Texto que describa la imagen')
+    //-       .row.justify-content-center.align-items-center.p-4
+    //-         .col-md-6.mb-4.mb-md-0
+    //-           h4 Primera muestra
+    //-           p Eleva la materia prima a  temperaturas entre 100 - 110 °C, con el objetivo de determinar su capacidad de humedad o agua. La materia seca contiene nutrientes, como son proteína bruta, extracto etéreo, cenizas, fibra bruta, extracto libre de nitrógeno, extracto no nitrogenado (carbohidratos- glucósidos solubles), siendo estos componentes la base fundamental para realizar y analizar los alimentos.
+    //-         .col-md-6
+    //-           figure
+    //-             img(src='@/assets/curso/temas/tema3/3.jpg', alt='Texto que describa la imagen')
+    //-       .row.justify-content-center.align-items-center.p-4
+    //-         .col-md-6.mb-4.mb-md-0
+    //-           h4 Segunda muestra
+    //-           p Es utilizada para el análisis de la proteína cruda, siendo una de las más importantes hablando de nutrición animal. Lo que se determina es el nitrógeno total que se libera en una digestión química, multiplicado por el factor 6.25 proveniente de un cálculo realizado, donde 100 g de proteína contienen 16 g de nitrógeno, 100 ÷ 16 = 6.25, siendo este un valor constante. Como limitante de este análisis, está la no diferenciación entre el nitrógeno no proteico y el proteico, ya que el no proteico no es absorbido por los monogástricos.
+    //-           p #[b Ejemplo:]  
+    //-           p Proteína bruta 1 gramo de maíz --------- 7.68 % de nitrógeno 
+    //-           p(style="margin:-2.5% 0;") % PB= 7.68 x 6.25 =48 % de proteína bruta.
+
+    //-         .col-md-6
+    //-           figure
+    //-             img(src='@/assets/curso/temas/tema3/4.jpg', alt='Texto que describa la imagen')
+    //-       .row.justify-content-center.align-items-center.p-4
+    //-         .col-md-6.mb-4.mb-md-0
+    //-           h4 Tercera muestra
+    //-           p Se somete por medio de un disolvente a la extracción del extracto etéreo o componente grasa de la materia prima, teniendo en cuenta que se realiza la extracción de aceites y todos los componentes liposolubles. El restante se somete al componente ácido y, después, al componente alcalino, para obtener la fibra bruta o cruda.
+    //-           p El extracto libre de nitrógeno se obtiene del faltante para llegar a 100%, después de los procedimientos anteriores, siendo estos principalmente los componentes glucósidos solubles.
+    //-         .col-md-6
+    //-           figure
+    //-             img(src='@/assets/curso/temas/tema3/5.jpg', alt='Texto que describa la imagen')
+
+    //- .row.justify-content-center.align-items-center(data-aos="flip-up")
+    //-   .tarjeta.tarjeta--gris.p-4.mb-5
+    //-     h4.titulo-cuarto Método análisis de #[em “Van Soest”]
+    //-     SlyderA(tipo="b")
+    //-       .row.justify-content-center.align-items-center.p-4
+    //-         .col-md-6.mb-4.mb-md-0
+    //-           p Es utilizado en el manejo de forrajes y pastos. El método propone una separación de los componentes de la fibra que ayudan a determinar mejor cada uno, porque el análisis proximal no los diferencia como primer procedimiento para la determinación de estos componentes. El análisis de “Van Soest” realiza una separación de las capas fibrilares del forraje, por medio de una sustancia detergente neutra. El resultado de esto es llamado fibra detergente neutra (FDN) y el restante que desaparece se presume que es el componente digestible. Seguido a esto, al componente de hemicelulosa se le aplica una solución ácida detergente, la cual es digerida, y al resultado se le llama fibra detergente ácido. En el último paso, se oxida, para disolver la lignina, y se obtiene la celulosa como remanente, que después se incinera. Los pasos anteriores son calculados de acuerdo con su desaparición.
+    //-         .col-md-6
+    //-           figure
+    //-             img(src='@/assets/curso/temas/tema3/6.jpg', alt='Texto que describa la imagen')
+    //-       .row.justify-content-center.align-items-center.p-4
+    //-         .col-md-6.mb-4.mb-md-0
+    //-           h4 Diferencias entre el análisis proximal y el método de #[b “van Soest”]
+    //-           p El análisis proximal no diferencia entre el componente de hemicelulosa y lignina (fibras insolubles), unificándolo todo en el extracto libre de nitrógeno, al lado de los carbohidratos (fuente de energía).
+    //-         .col-md-6
+    //-           .titulo-sexto.color-acento-contenido
+    //-             h5 Figura 3
+    //-             span #[em Diferencias entre el análisis proximal y método de Van Soest]
+    //-           figure
+    //-             img(src='@/assets/curso/temas/tema3/7.svg', alt='Texto que describa la imagen')
 
     separador 
     .titulo-segundo.color-secundario
@@ -130,39 +171,33 @@
     .row.justify-content-center.align-items-center
       .col-12
         .row.justify-content-center.align-items-center
-          .col-lg-3
+          .col-md-4
             figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema3/8.png', alt='Texto que describa la imagen')
-          .col-lg-9
+          .col-md-8
             p(data-aos="fade-left") Las técnicas y métodos de elaboración de raciones pueden ser simples, complejos y tecnificados; pueden ejecutarlos desde una persona sin conocimientos técnicos hasta- los operarios de una industria alimentaria. Independientemente de la elección, tienen como objetivo suplir las necesidades nutricionales de los animales. Recuerde que es necesario que la persona reconozca la composición de los ingredientes o materias primas utilizadas.
             .tarjeta.p-4(style="background-color:#DBF9BD")(data-aos="flip-up")
               p(data-aos="fade-left") La gran mayoría de animales requiere energía para sus procesos de mantenimiento o metabolismo normal; además, para su crecimiento, reproducción y sus capacidades productivas, que son de gran importancia para la explotación pecuaria. En 1945, el NRC (“National Research Counci”: Consejo Nacional de Investigación) propuso un sistema de formulación que expone los valores de las energías de las materias primas, entre ellas: energía animal como calorías (CAL), energía bruta (EB), energía digestible (ED), energía metabolizable (EM) y energía neta (EN). Este fue un gran avance para la formulación de raciones, porque entender cómo separar cada componente energético permite atender necesidades alimentarias de las especies animales.  A continuación, se caracterizan cada una de las energías que usted debe comprender para su actividad laboral. 
 
     .row.justify-content-center.align-items-center
       .col-10
-        TabsA.color-primario.mb-5.mt-5(data-aos="flip-up")
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Calorías (CAL)")
-            h4 Calorías (CAL)
+        TabsA.color-acento-contenido.mb-5.mt-5(data-aos="flip-up")
+          .tarjeta.color-secundario--borde.p-4(titulo="Calorías (CAL)")
             p Es la cantidad de calor necesaria para elevar un grado centígrado una molécula de H2O, por ejemplo, para pasar de 14.5 ºC a 15.5 ºC. Se pueden medir en kilocalorías, que son 1000 calorías (o 4.184 julios), o en megacalorías, que son 1.000.000 de calorías.
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Total de nutrimentos digestibles (TDN)")
-            h4 Total de nutrimentos digestibles (TDN)
+          .tarjeta.color-secundario--borde.p-4(titulo="Total de nutrimentos digestibles (TDN)")
             p Los nutrientes digestibles totales es un método en el cual se utilizan las matemáticas para tener un cálculo aproximado de la energía liberada por un ingrediente o materia prima, teniendo en cuenta los valores obtenidos por el análisis proximal.
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Energía bruta (EB)")
-            h4 Energía bruta (EB)
+          .tarjeta.color-secundario--borde.p-4(titulo="Energía bruta (EB)")
             p Es la energía que desprende un alimento al quemarse totalmente en una bomba calorimétrica. Es un parámetro aproximado de energía que se obtiene de forma rápida.
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Energía digestible (ED)")
-            h4 Energía digestible (ED)
+          .tarjeta.color-secundario--borde.p-4(titulo="Energía digestible (ED)")
             p Se obtiene de la resta entre energía bruta y la energía eliminada por las heces. Esta energía es la que se encuentra disponible para el animal.
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Energía metabolizable (EM)")
-            h4 Energía metabolizable (EM)
+          .tarjeta.color-secundario--borde.p-4(titulo="Energía metabolizable (EM)")
             p Proceso de pérdida producido por la orina y los gases de la digestión (rumiantes). Se observó para los rumiantes que el valor de energía metabolizable representa alrededor del 82% de la energía digestible, por lo que la EM se puede estimar con tan solo multiplicar ED x 0.82. En cerdos y aves, la relación es mucho más variable, pero está cerca del 92%, ED x 0.92 = EM.
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Energía neta (EN)")
-            h4 Energía neta (EN)
+          .tarjeta.color-secundario--borde.p-4(titulo="Energía neta (EN)")
             p La energía neta es la energía metabolizable a la cual se le resta el incremento calórico del animal; esta energía es destinada para dos tipos de necesidades: la producción y el mantenimiento.
 
     .row.justify-content-center.align-items-center.mb-5
@@ -175,33 +210,40 @@
             p(data-aos="fade-left") De acuerdo con la última actualización de la NRC, la energía que más se utiliza para la elaboración de raciones es la energía metabolizable (EM). Esta se divide en dos: 1. Energía para ganancia/producción y 2. Energía neta para producción o para mantenimiento. A medida que avanza la edad, el peso y la producción de los animales, cambia la composición de ganancia o producción. Es importante tener en cuenta el peso, la edad productiva y la ganancia deseada del animal, para así elaborar o adecuar una ración óptima. Las guías de NRC en sus diferentes tablas suministran la EM de los animales en megacalorías/día (Mcal/día), siendo de gran importancia conocer la densidad energética de los diferentes alimentos, donde la EM del animal se divide por la EM del alimento, dando como resultado la cantidad de alimento suministrado en el día. Recuerde que debe tener en cuenta cómo se presenta la materia prima o alimento: seco o fresco, para así determinar si tiene la humedad o no.
 
     .row.justify-content-center.align-items-center.mb-3
-      .col-10
-        .tarjeta.p-4(style="background-color:#FFFAD0")(data-aos="flip-up")
-          p #[b Ejemplo.]
+      .col-11
+        .tarjeta.p-3(style="background-color:#FFFAD0")(data-aos="flip-up")
+          p.offset-1 #[b Ejemplo.]
           .row.justify-content-center.align-items-center
-            .col-lg-8.mb-3
-              .tarjeta.p-4(style="background-color:#632059")(data-aos="flip-up")
-                p.text-white Fórmula.
-                p.text-white EM animal ÷ EM alimento
-                p.text-white Un ternero de 45 kilogramos necesita ser alimentado, para ello, se selecciona leche entera, esta tiene una capacidad del 12% de humedad, aproximadamente, 5,37 Mcal de energía por kilogramo de materia seca, con un aumento de 600 gramos PC/día. Su requerimiento será de 3,50 según tablas NRC.
-                p.text-white Desarrollo de la formulación.
-                p.text-white 3.50 requerimiento animal ÷ 5.37 Mcal de alimento = 0.6517 kilogramos de materia seca de leche/día, que se podría expresar como 0.6517 kg ÷ 0.12 de humedad = 5,43 kilogramos de leche entera en materia fresca al día.
-            .col-lg-4
-              figure(data-aos="fade-right")
-                img(src='@/assets/curso/temas/tema3/10.svg', alt='Texto que describa la imagen')
+            .col-md-10.mb-3
+              .tarjeta.p-4(style="background-color:#1B3F5E")(data-aos="flip-up")
+                .row.justify-content-center.align-items-center
+                  .col-7
+                    p.text-white Fórmula.
+                    p.text-white EM animal ÷ EM alimento
+                    p.text-white Un ternero de 45 kilogramos necesita ser alimentado, para ello, se selecciona leche entera, esta tiene una capacidad del 12% de humedad, aproximadamente, 5,37 Mcal de energía por kilogramo de materia seca, con un aumento de 600 gramos PC/día. Su requerimiento será de 3,50 según tablas NRC.
+                    p.text-white Desarrollo de la formulación.
+                    p.text-white 3.50 requerimiento animal ÷ 5.37 Mcal de alimento = 0.6517 kilogramos de materia seca de leche/día, que se podría expresar como 0.6517 kg ÷ 0.12 de humedad = 5,43 kilogramos de leche entera en materia fresca al día.
+                  .col-md-5
+                    figure(data-aos="fade-right")
+                      img(src='@/assets/curso/temas/tema3/10.svg', alt='Texto que describa la imagen')
     
     .row.justify-content-center.align-items-center
       .col-10.mb-5
         p Sumado a lo expuesto, se le sugiere observar el siguiente gráfico, que presenta la distribución de la energía.
 
     .titulo-sexto.color-acento-contenido.offset-2
-      h5 Figura 6
+      h5 Figura 4
       span #[em Distribución de la energía]
 
     .row.justify-content-center.align-items-center.mt-5.mb-5
-      .col-8
+      .col-10.desktop
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema3/11.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema3/11.svg', alt='Distribución de la energía')
+
+    .row.justify-content-center.align-items-center.mt-5.mb-5
+      .col-10.movil
+        figure(data-aos="fade-right")
+          img(src='@/assets/curso/temas/tema3/36.svg', alt='Distribución de la energía')
 
     p(data-aos="fade-left") Retomando los métodos que nos convoca la presente sección de información, se continúa caracterizando métodos de elaboración de las raciones animales.
 
@@ -216,13 +258,18 @@
         p(data-aos="fade-left") Finalmente, se realiza una ecuación, donde se toma cada valor de las partes lo multiplicamos por 100 y lo dividimos por la sumatoria total de ambas partes; este resultado lo multiplicamos por la cantidad total de alimento a realizar, para obtener cuánto debemos agregar de dicho alimento. A continuación, se presenta un ejemplo:
 
     .titulo-sexto.color-acento-contenido.offset-2
-      h5 Figura 7
+      h5 Figura 5
       span #[em Ejemplo método de cuadrado de Pearson Simple]
     
     .row.justify-content-center.align-items-center.mt-5
-      .col-lg-10
+      .col-lg-10.desktop
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema3/13.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema3/13.svg', alt='Ejemplo método de cuadrado de “Pearson Simple')
+
+    .row.justify-content-center.align-items-center.mt-5
+      .col-lg-10.movil
+        figure(data-aos="fade-right")
+          img(src='@/assets/curso/temas/tema3/37.svg', alt='Ejemplo método de cuadrado de “Pearson Simple')
 
 
     .row.justify-content-center.align-items-center.mt-5.mb-5
@@ -235,45 +282,45 @@
     p ●	#[b Cuadro de #[em “Pearson”] compuesto]  
 
     .row.justify-content-center.align-items-center.mb-5 
-      .col-lg-1.mb-3
+      .col-md-1.mb-3
         figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema3/14.svg', alt='Texto que describa la imagen')
-      .col-lg-11
+      .col-md-11
         p(data-aos="fade-left") El cuadrado de Pearson compuesto tiene los mismos componentes del cuadrado de Pearson simple, pero con un mayor número de ingredientes, donde su única condición es que la cantidad de ingredientes sea par para poder lograr el resultado óptimo. La ejecución del método es la misma que la del cuadrado de Pearson simple.
 
     p ●	#[b Ecuaciones simultáneas] 
     
     .row.justify-content-center.align-items-center 
-      .col-lg-1.mb-3
+      .col-md-1.mb-3
         figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema3/15.svg', alt='Texto que describa la imagen')
-      .col-lg-11
+      .col-md-11
         p(data-aos="fade-left") Este método requiere un poco más de conocimiento matemático y algebraico, donde es posible determinar dos o más ecuaciones con dos o más materias primas o ingredientes, cuyo objetivo es encontrar la incógnita, para lo cual se tienen, como primer paso, que determinar las materias primas a utilizar y el requerimiento del animal. Seguido a este paso, hay que convertir los datos a decimales; después, se expresan en las ecuaciones; posteriormente, se anula una incógnita y se despeja la siguiente; y por último, se hace el reemplazo de la incógnita. Es importante, después de terminar el proceso, hacer la comprobación de la formulación.
 
     p.mt-4.mb-5 #[b Comprenda el paso a paso para hallar las ecuaciones.]
 
     .row.mb-5(data-aos="flip-up")
       .col-md-4.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-primario.p-5(style="height:100%")
+        .tarjeta-numerada.color-primario.p-5(style="height:100%; background-color:#DBF9BD")
           .tarjeta-numerada__numero
-            .h2 1
+            .h2 01
           h4.text-center Determinación de la materia prima  
           p.text-center Maíz grano--------------🡪 8.8 %
           p.text-center Torta de soya---------- 45%
           p.text-center Requerimiento---------🡪 15%
       .col-md-4.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-primario.p-5(style="height:100%")
+        .tarjeta-numerada.color-primario.p-5(style="height:100%; background-color:#DBF9BD")
           .tarjeta-numerada__numero
-            .h2 2
+            .h2 02
           h4.text-center Convertir a decimales
           p.text-center Se dividen estos porcentajes por 100
           p.text-center Maíz grano-----------🡪 0.088
           p.text-center Torta de soya--------🡪 0.45
           p.text-center Requerimiento ------🡪 0.15
       .col-md-4.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-primario.p-5(style="height:100%")
+        .tarjeta-numerada.color-primario.p-5(style="height:100%; background-color:#DBF9BD")
           .tarjeta-numerada__numero
-            .h2 3
+            .h2 03
           h4.text-center Expresar las ecuaciones
           p.text-center X= Maíz grano
           p.text-center Y= Torta de soya  
@@ -283,24 +330,24 @@
 
     .row.mb-5(data-aos="flip-up")
       .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-primario.p-5(style="height:100%")
+        .tarjeta-numerada.color-primario.p-5(style="height:100%; background-color:#DBF9BD")
           .tarjeta-numerada__numero
-            .h2 4
+            .h2 04
           h4.text-center Anulación de la incógnita
           p.text-center Se toma la fórmula A y se multiplica por el valor negativo del coeficiente de X en la fórmula B, expresándola de esta manera:
           p.text-center -0.088X-0.088Y= - 0.088
           p.text-center 0.088X +0,45Y=0,15/0.362Y=0.062 Se realiza una suma vertical de las dos fórmulas, donde se cancela el valor X de ambas fórmulas y se resuelve el valor Y
       .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-primario.p-5(style="height:100%")
+        .tarjeta-numerada.color-primario.p-5(style="height:100%; background-color:#DBF9BD")
           .tarjeta-numerada__numero
-            .h2 5
+            .h2 05
           h4.text-center Despeje de la otra ecuación 
           p.text-center 0.362Y= 0.062
           p.text-center Donde Y es igual a Y = dividimos 0.062/0.362 Y =0.1713, este es el valor de Y.
     
     .row.mb-5.justify-content-center.align-items-center(data-aos="flip-up")
       .col-6
-        .tarjeta-numerada.color-primario.p-5(style="height:100%")
+        .tarjeta-numerada.color-primario.p-5(style="height:100%; background-color:#DBF9BD")
             .tarjeta-numerada__numero
               .h2 6
             h4.text-center Reemplazo de la incógnita 
@@ -322,10 +369,10 @@
     p.mt-5 ●	#[b Métodos computarizados]  
 
     .row.justify-content-center.align-items-center.mb-5 
-      .col-lg-1.mb-3
+      .col-md-1.mb-3
         figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema3/16.svg', alt='Texto que describa la imagen')
-      .col-lg-11
+      .col-md-11
         p(data-aos="fade-left") Existen métodos computarizados especializados para la formulación de raciones, los cuales emplean las grandes industrias alimenticias, para así generar una adición completa y exacta de vitaminas, minerales, proteínas, aditivos, aminoácidos esenciales, entre otros. Dentro de estos, se pueden encontrar las diferentes tablas de #[em Excel], el componente #[em SOLVER], entre otros.
         figcaption Nota.  Las tablas de composición de los alimentos se anexan en el material complementario como documentos de apoyo. 
     separador 
@@ -408,10 +455,19 @@
       h2#t_3_4 3.4  Transformación materias primas
     
     p.mb-5(data-aos="fade-left") Uno de los errores comunes en la nutrición animal es confundir alimentar con formular. Cualquier persona puede realizar una formulación sin un conocimiento previo de nutrición, siguiendo unos requerimientos dados; pero la verdadera aplicación de la formulación animal es comprender al animal, su estado fisiológico, su anatomía, su etapa de desarrollo y los diferentes requerimientos nutricionales que cada uno de estos factores genera en el animal. La importancia de este proceso es la aplicación de las fórmulas y los valores nutricionales adecuados para cada alimento animal. Las diferentes fórmulas empleadas deben tener los siguientes criterios:
-    .col-7.offset-4
-      p(data-aos="fade-left") ● Necesidades nutricionales del animal.
-      p(data-aos="fade-left") ● Alimentos y análisis de alimentos. 
-      p(data-aos="fade-left") Con estos criterios, se debe interpretar la buena utilización de las fórmulas y los resultados esperados, buscando siempre satisfacer los requerimientos del animal, para así lograr un índice productivo mayor de los animales.
+
+    .row.justify-content-center 
+      .col-12
+        .cajon.color.p-4(style="background-color:#FFFAD0")(data-aos="fade-left")
+          .row.justify-content-center
+            .col-md-6
+              p(data-aos="fade-left") ● Necesidades nutricionales del animal.
+              p(data-aos="fade-left") ● Alimentos y análisis de alimentos. 
+              p(data-aos="fade-left") Con estos criterios, se debe interpretar la buena utilización de las fórmulas y los resultados esperados, buscando siempre satisfacer los requerimientos del animal, para así lograr un índice productivo mayor de los animales.
+
+            .col-md-4
+              figure
+                img(src='@/assets/curso/temas/tema3/38.jpg', alt='Texto que describa la imagen')
 
     separador 
     .titulo-segundo.color-secundario
@@ -483,15 +539,15 @@
             figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema3/29.jpg', alt='Texto que describa la imagen')
           .col-lg-8
-            .tarjeta.p-3.mb-1(style="background-color:#3B5620")(data-aos="flip-up")
+            .cajon.p-3.mb-1(style="background-color:#3B5620")(data-aos="flip-up")
               p.text-small(style="color:#FFFAD0")(data-aos="fade-left") Utilización de equipos e instalaciones adecuadas para la elaboración de alimentos.
-            .tarjeta.p-3.mb-1(style="background-color:#3B5620")(data-aos="flip-up")
+            .cajon.p-3.mb-1(style="background-color:#3B5620")(data-aos="flip-up")
               p.text-small(style="color:#FFFAD0")(data-aos="fade-left") Personal capacitado y procedimientos aprobados por el ente regulador.
-            .tarjeta.p-3.mb-1(style="background-color:#3B5620")(data-aos="flip-up")
+            .cajon.p-3.mb-1(style="background-color:#3B5620")(data-aos="flip-up")
               p.text-small(style="color:#FFFAD0")(data-aos="fade-left") Métodos de ensayo válidos.
-            .tarjeta.p-3.mb-1(style="background-color:#3B5620")(data-aos="flip-up")
+            .cajon.p-3.mb-1(style="background-color:#3B5620")(data-aos="flip-up")
               p.text-small(style="color:#FFFAD0")(data-aos="fade-left") Registros de todos los procedimientos y resultados obtenidos.
-            .tarjeta.p-3.mb-1(style="background-color:#3B5620")(data-aos="flip-up")
+            .cajon.p-3.mb-1(style="background-color:#3B5620")(data-aos="flip-up")
               p.text-small(style="color:#FFFAD0")(data-aos="fade-left") Independencia o libre elección de las materias primas aprobadas o rechazadas después de que sea una materia prima aprobada para su uso en alimentos por el ente regulador.
 
     .row.justify-content-center
@@ -500,7 +556,7 @@
         
     .row.justify-content-center.mt-5
       .col-10
-        .tarjeta.p-4.mb-1(style="background-color:#632059")(data-aos="flip-up")
+        .tarjeta.p-4.mb-1(style="background-color:#1B3F5E")(data-aos="flip-up")
           .row.justify-content-center 
             .col.lg-5
               h4.text-center.mb-5(style="color:#FFFAD0") Malos procesos de limpieza y desinfección

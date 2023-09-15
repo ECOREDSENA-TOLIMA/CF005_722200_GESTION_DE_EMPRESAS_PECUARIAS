@@ -81,7 +81,7 @@
         .row.justify-content-center.align-items-center
           .col-md-3
             figure
-              img(src='@/assets/curso/temas/tema6/15.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema6/14.svg', alt='Texto que describa la imagen')
           .col-md-4.mb-4.mb-md-0.offset-2
             h4 Riesgos ambientales
             p Son todos aquellos que no se pueden controlar, como la probabilidad de que ocurra una catástrofe, un evento propio de la naturaleza o por acción del hombre. Existen riesgos naturales (todos aquellos riesgos geológicos) y riesgos antrópicos (aquellas circunstancias causadas por las acciones del ser humano).
@@ -90,7 +90,7 @@
         .row.justify-content-center.align-items-center
           .col-md-3
             figure
-              img(src='@/assets/curso/temas/tema6/14.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema6/15.svg', alt='Texto que describa la imagen')
           .col-md-4.mb-4.mb-md-0.offset-2
             h4 Riesgos mecánicos
             p Conjunto de eventos que pueden causar daño a un trabajador, como quemaduras, cortes, golpes, entre otros; en su mayoría, se presentan por la manipulación de herramientas y vehículos.        
@@ -103,11 +103,11 @@
 
     .row.justify-content-center(data-aos="flip-up")
       .col-lg-8
-        .tabla-b.color-acento-contenido.mb-5
-          .tabla-b__header
+        .tabla-b.color.mb-5
+          .tabla-b__header(style="background-color:#1B3F5E")
             h4.mb-0 Tipo físico
           table
-            tr.text-center(style="background-color:#E5DBD7")
+            tr.text-center(style="background-color:#DBF9BD")
               th Peligros
               th Riesgos
             tr
@@ -126,10 +126,10 @@
     .row.justify-content-center.mt-5(data-aos="flip-up")
       .col-lg-8
         .tabla-b.color-acento-contenido.mb-5
-          .tabla-b__header
+          .tabla-b__header(style="background-color:#1B3F5E")
             h4.mb-0 Tipo biológico
           table
-            tr.text-center(style="background-color:#E5DBD7")
+            tr.text-center(style="background-color:#DBF9BD")
               th Peligros
               th Riesgos
             tr
@@ -142,10 +142,10 @@
     .row.justify-content-center.mt-5(data-aos="flip-up")
       .col-lg-8
         .tabla-b.color-acento-contenido.mb-5
-          .tabla-b__header
+          .tabla-b__header(style="background-color:#1B3F5E")
             h4.mb-0 Tipo químico
           table
-            tr.text-center(style="background-color:#E5DBD7")
+            tr.text-center(style="background-color:#DBF9BD")
               th Peligros
               th Riesgos
             tr
@@ -155,10 +155,10 @@
     .row.justify-content-center.mt-5(data-aos="flip-up")
       .col-lg-8
         .tabla-b.color-acento-contenido.mb-5
-          .tabla-b__header
+          .tabla-b__header(style="background-color:#1B3F5E")
             h4.mb-0 Tipo ergonómico
           table
-            tr.text-center(style="background-color:#E5DBD7")
+            tr.text-center(style="background-color:#DBF9BD")
               th Peligros
               th Riesgos
             tr
@@ -168,10 +168,10 @@
     .row.justify-content-center.mt-5(data-aos="flip-up")
       .col-lg-8
         .tabla-b.color-acento-contenido.mb-5
-          .tabla-b__header
+          .tabla-b__header(style="background-color:#1B3F5E")
             h4.mb-0 Tipo psicosocial
           table
-            tr.text-center(style="background-color:#E5DBD7")
+            tr.text-center(style="background-color:#DBF9BD")
               th Peligros
               th Riesgos
             tr
@@ -181,10 +181,10 @@
     .row.justify-content-center.mt-5(data-aos="flip-up")
       .col-lg-8
         .tabla-b.color-acento-contenido.mb-5
-          .tabla-b__header
+          .tabla-b__header(style="background-color:#1B3F5E")
             h4.mb-0 Tipo mecánico
           table
-            tr.text-center(style="background-color:#E5DBD7")
+            tr.text-center(style="background-color:#DBF9BD")
               th Peligros
               th Riesgos
             tr
@@ -250,10 +250,10 @@
     .row.justify-content-center.align-items-center.mt-4.mb-5
       .col-lg-10
         .row.justify-content-center.align-items-center
-          .col-lg-4
+          .col-lg-3
             figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema6/8.jpg', alt='Texto que describa la imagen')
-          .col-lg-5
+          .col-lg-8
             .cajon.p-2.mb-1(style="background-color:#3B5620")(data-aos="flip-up")
               p.offset-1.text-small(style="color:#FFFAD0")(data-aos="fade-left") Estudios y exploración de accidentes de trabajo y enfermedades profesionales en cada área de la empresa.
             .cajon.p-2.mb-1(style="background-color:#3B5620")(data-aos="flip-up")
@@ -271,23 +271,23 @@
 
     .row.mb-5.justify-content-center
       .col-md-6.col-lg.mb-5.mb-lg-0
-        .tarjeta(style="background-color:#632059; height:100%")
+        .tarjeta(style="background-color:#1B3F5E; height:100%")
           .text.p-4.text-center
-            h2(style="color:#FFFAD0").text-center Intolerable
+            h2.text-white.text-center Intolerable
             hr
-            p(style="color:#FFFAD0") Se define cuando se debe evaluar y detener casi en el momento la situación que se presenta, para evitar accidentes y daños a la salud.
+            p.text-white Se define cuando se debe evaluar y detener casi en el momento la situación que se presenta, para evitar accidentes y daños a la salud.
       .col-md-6.col-lg.mb-5.mb-lg-0
-        .tarjeta(style="background-color:#632059; height:100%")
+        .tarjeta(style="background-color:#1B3F5E; height:100%")
           .text.p-4.text-center
-            h2(style="color:#FFFAD0").text-center Importante
+            h2.text-white.text-center Importante
             hr
-            p(style="color:#FFFAD0") Son aquellos puntos de control que se deben tener en cuenta para una mejora rápida.
+            p.text-white Son aquellos puntos de control que se deben tener en cuenta para una mejora rápida.
       .col-md-6.col-lg.mb-5.mb-lg-0
-        .tarjeta(style="background-color:#632059; height:100%")
+        .tarjeta(style="background-color:#1B3F5E; height:100%")
           .text.p-4.text-center
-            h2(style="color:#FFFAD0").text-center Moderado
+            h2.text-white.text-center Moderado
             hr
-            p(style="color:#FFFAD0") Son aquellos puntos de control donde se pueden hacer actividades para una mejora progresiva, tales como pausas activas, rotaciones de turno, equipos de protección mejorados, entre otros.
+            p.text-white Son aquellos puntos de control donde se pueden hacer actividades para una mejora progresiva, tales como pausas activas, rotaciones de turno, equipos de protección mejorados, entre otros.
 
     p(data-aos="fade-left") Hasta aquí se ha organizado para usted un conjunto de conocimiento científico y técnico que le ayudará a la apropiación de información que se complementa con un conjunto de actividades de aprendizaje para desarrollar una competencia que le ayude a resolver desafíos en torno a la identificación de materias primas y equipos para la preparación de ración animal según parámetros técnicos y normativa. 
 

@@ -4,7 +4,7 @@ export default {
       'Generalidades en la preparación de raciones para especies animales',
     descripcionCurso:
       'El presente componente de formación surge de la necesidad de aproximarse a la alimentación animal como un componente importante en la producción porque es la base fundamental para la expresión genética de los mismos. La preparación de raciones es un componente importante en la nutrición animal para llegar a alcanzar los diferentes requerimientos energéticos, proteicos, vitamínicos y minerales, logrando así un sistema productivo rentable, bajo los lineamientos de unas buenas prácticas de alimentación.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
