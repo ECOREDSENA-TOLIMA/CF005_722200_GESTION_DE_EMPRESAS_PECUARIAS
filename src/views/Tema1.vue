@@ -306,7 +306,7 @@
       .row.justify-content-center.align-items-center(titulo="Selección")(data-aos="flip-up")
         .col-md-3.p-4
           figure
-            img(src='@/assets/curso/temas/tema1/25.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema1/25.png', alt='Texto que describa la imagen')
         .col-md-7.mb-4.mb-md-0.p-4
           p Esta técnica se centra en la selección de los ingredientes o materias primas que se usarán en la ración animal. Se hace necesario hacer un listado de estas materias, que se deben comprar a proveedores que garanticen un producto seguro porque cumple con las especificaciones estipuladas para cada materia prima.
           p Los proveedores deben suministrar las especificaciones exactas de los productos, para así realizar una formulación mucho más precisa de las raciones. Tenga cuidado, cuando cambie de proveedor, de solicitar las especificaciones de las materias primas, ya que pueden tener una variación significativa con respecto a trazas de medicamentos o alguna alteración. 
@@ -315,7 +315,7 @@
       .row.justify-content-center.align-items-center(titulo="Adecuación")
         .col-md-3.p-4
           figure
-            img(src='@/assets/curso/temas/tema1/26.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema1/26.png', alt='Texto que describa la imagen')
         .col-md-7.mb-4.mb-md-0.p-4
           p La adecuación es un proceso que debe suceder antes de la recepción de las materias primas. Esta debe planearse con la intención de agilizar el proceso de recepción y descargue de las materias primas, para así evitar los factores de perecibilidad. Ello garantiza un producto óptimo.
           p Cuando usted necesita realizar la técnica de adecuación, seleccione un espacio adecuado para la descarga de las materias primas, que luego son direccionadas al lugar de almacenamiento.
@@ -324,7 +324,7 @@
       .row.justify-content-center.align-items-center(titulo="Recepción")
         .col-md-3.p-4
           figure
-            img(src='@/assets/curso/temas/tema1/27.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema1/27.png', alt='Texto que describa la imagen')
         .col-md-7.mb-4.mb-md-0.p-4
           p Esta técnica tiene como propósito la revisión de los ingredientes o materias primas solicitadas. Estas deben coincidir con la lista de solicitud y envío del proveedor. Usted puede identificar el contenido de los empaques o cajas porque deben tener una rotulación sobre número, fecha, lote y todas las características que informen su caducidad y registro.
           p Antes de realizar la descarga, realice una leve inspección de los productos, en relación con el embalaje, cantidad, color, olor, textura, densidad, humedad, peso y temperatura de los productos. Si existe alguna alteración, haga el respectivo reporte. Cabe mencionar, en el momento de la recepción de materias primas o productos a granel, un muestreo de las materias. Tome de forma aleatoria un ¼ a ½ de materia. Haga una identificación y rotulación de esta actividad con estos aspectos: fecha de muestra, fecha de elaboración del producto, tipo de materia prima, fecha de caducidad. Con materias primas o ingredientes como aceites, grasas, entre otros, la muestra se debe realizar después de haber iniciado el descargue.
@@ -333,7 +333,7 @@
       .row.justify-content-center.align-items-center(titulo="Evaluación")
         .col-md-3.p-4
           figure
-            img(src='@/assets/curso/temas/tema1/28.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema1/28.png', alt='Texto que describa la imagen')
         .col-md-7.mb-4.mb-md-0.p-4
           p La técnica de evaluación es un procedimiento que se realiza desde el proceso de selección, cuando se valora la calidad de la materia prima. Es importante, en el antes, durante y después de la recepción, velar por el cumplimiento de los requerimientos de los animales. Es un procedimiento que se realiza de manera constante y durante todas las fases.
           

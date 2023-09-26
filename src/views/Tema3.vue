@@ -471,7 +471,7 @@
             .col-md-6
               p(data-aos="fade-left") ● Necesidades nutricionales del animal.
               p(data-aos="fade-left") ● Alimentos y análisis de alimentos. 
-              p(data-aos="fade-left") Con estos criterios, se debe interpretar la buena utilización de las fórmulas y los resultados esperados, buscando siempre satisfacer los requerimientos del animal, para así lograr un índice productivo mayor de los animales.
+              p(data-aos="fade-left") Con estos criterios, se debe interpretar la buena utilización de las fórmulas y los resultados esperados, buscando siempre satisfacer los requerimientos del animal, para así lograr un índice productivo mayor en ellos.
 
             .col-md-4
               figure
