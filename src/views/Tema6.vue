@@ -73,7 +73,7 @@
               img(src='@/assets/curso/temas/tema6/12.svg', alt='Texto que describa la imagen')
           .col-md-4.mb-4.mb-md-0.offset-2
             h4 Riesgos ergonómicos
-            p En su mayoría, el riesgo ergonómico se da por posturas incorrectas en trabajos de oficina que son sedentarios o trabajos que son repetitivos en sus movimientos, y que con el tiempo pueden causar un gran daño y lesiones a nivel musculo esquelético y generar dolores por diferentes lesiones; también se encuentra el levantamiento excesivo de peso con o sin una técnica adecuada.
+            p En su mayoría, el riesgo ergonómico se da por posturas incorrectas en trabajos de oficina que son sedentarios o trabajos que son repetitivos en sus movimientos, y que con el tiempo pueden causar un gran daño y lesiones a nivel músculo esquelético y generar dolores por diferentes lesiones; también se encuentra el levantamiento excesivo de peso con o sin una técnica adecuada.
 
       .py-4.py-md-5(titulo="Riesgos psicosociales")
         .row.justify-content-center.align-items-center
@@ -104,9 +104,9 @@
         
     p(data-aos="fade-left") Cuando se habla de que existe un peligro, se refiere a una condición potencial, que puede provocar daños en la salud, y riesgo es la probabilidad de exposición a un evento peligroso, es la consecuencia del peligro. En la siguiente tabla, se hace una comparación entre peligros y riesgos. Obsérvela.
 
-    .titulo-sexto.color-acento-contenido.offset-1.mt-5.mb-5
+    .titulo-sexto.color-acento-contenido.offset-2.mt-5.mb-5
       h5 Tabla 3 
-      span #[em Peligro y riesgos]
+      span #[em Peligro y riesgos - Tipo físico]
 
     .row.justify-content-center(data-aos="flip-up")
       .col-lg-8
@@ -130,6 +130,10 @@
               th Radiación 
               td Alteraciones en la piel y deshidratación. 
 
+              
+    .titulo-sexto.color-acento-contenido.offset-2.mt-5.mb-5
+      h5 Tabla 4 
+      span #[em Peligro y riesgos - Tipo biológico]
     .row.justify-content-center.mt-5(data-aos="flip-up")
       .col-lg-8
         .tabla-b.color-acento-contenido.mb-5
@@ -146,6 +150,10 @@
               th Roedores e insectos 
               td Enfermedades infectocontagiosas o virales.
 
+    .titulo-sexto.color-acento-contenido.offset-2.mt-5.mb-5
+      h5 Tabla 5 
+      span #[em Peligro y riesgos - Tipo químico]
+
     .row.justify-content-center.mt-5(data-aos="flip-up")
       .col-lg-8
         .tabla-b.color-acento-contenido.mb-5
@@ -159,6 +167,9 @@
               td Gases, vapores, partículas de diferentes materiales, humos metálicos
               td Cefaleas, náuseas, vómitos, irritaciones en diferentes sistemas, quemaduras, asfixia, alteración cardiovascular, muerte.
 
+    .titulo-sexto.color-acento-contenido.offset-2.mt-5.mb-5
+      h5 Tabla 6 
+      span #[em Peligro y riesgos - Tipo ergonómico]
     .row.justify-content-center.mt-5(data-aos="flip-up")
       .col-lg-8
         .tabla-b.color-acento-contenido.mb-5
@@ -172,6 +183,10 @@
               td Manejo de cargas, movimientos repetitivos y sobreesfuerzo
               td Trauma acumulativo, afección en sistema musculoesquelético, lesiones a nivel de columna vertebral, alteración en sistema cardiovascular. 
 
+    
+    .titulo-sexto.color-acento-contenido.offset-2.mt-5.mb-5
+      h5 Tabla 7 
+      span #[em Peligro y riesgos - Tipo psicosocial]
     .row.justify-content-center.mt-5(data-aos="flip-up")
       .col-lg-8
         .tabla-b.color-acento-contenido.mb-5
@@ -184,6 +199,10 @@
             tr
               td Condiciones intralaborales
               td Estrés, depresión y ansiedad.
+
+    .titulo-sexto.color-acento-contenido.offset-2.mt-5.mb-5
+      h5 Tabla 8 
+      span #[em Peligro y riesgos - Tipo mecánico]
 
     .row.justify-content-center.mt-5(data-aos="flip-up")
       .col-lg-8

@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Materias primas para el alimento animal
+      h1 Materias primas para alimento animal
 
     p.mb-5(data-aos="fade-left") Las materias primas son la base fundamental para la alimentación animal porque de ellas se obtienen los nutrientes necesarios para suplir las necesidades nutricionales de los animales. Para ello, se deben considerar diferentes factores, como son:
     
@@ -198,7 +198,7 @@
           p En caso de presentarse una alteración de la materia prima, ya sea por rancidez o caducidad, en la inspección se debe identificar, separar y determinar la causa de dicha alteración.
     separador 
     .titulo-segundo.color-secundario
-      h2#t_1_2 1.2  Características de la perecibilidad
+      h2#t_1_2 1.2  Características de perecibilidad
 
     p(data-aos="fade-left") En la gestión del acopio y almacenamiento de las diferentes materias primas, es importante conocer e identificar sus características con respecto a la perecibilidad. La perecibilidad se define como el deterioro de las materias primas o alimentos por condiciones físicas, químicas o biológicas. Las características de la perecibilidad son generalmente determinadas por la vida útil del producto, es decir, por la duración de la materia prima en condiciones de calidad organolépticas óptimas y de calidad aceptable, ya sean de horas o días, a temperatura ambiente (Aguilar, 2012).
     p.mb-5(data-aos="fade-left") #[em Madigan] et al. (2000) definen el deterioro de materias primas o alimentos como cualquier cambio en el aspecto visual, olor o sabor de un producto alimenticio que lo hace inaceptable para el consumidor. Entendiendo esta afirmación de los autores con respecto a las condiciones de cambios o alteraciones, se deben comprender los factores que afectan directa o indirectamente el producto o materia prima. Observe el siguiente recurso de aprendizaje para más información. 
@@ -300,7 +300,7 @@
     separador 
     .titulo-segundo.color-secundario
       h2#t_1_3 1.3  Técnicas de selección, adecuación, recepción y evaluación
-    p.mb-5(data-aos="fade-left") Las materias primas seleccionadas para la elaboración de alimento animal son una fuente que define la composición de un alimento; en consecuencia, su adecuación, recepción y evaluación son acciones constantes para determinar la calidad y bienestar animal.  A continuación, se describen algunas técnicas planeadas desde la inocuidad y calidad de los productos. Estas técnicas ofrecen unos alimentos sanos y seguros, tanto para los animales como para los consumidores finales. ¿Ha escuchado sobre las técnicas de selección, adecuación, recepción y evaluación? Para más información, que le ayudará a desarrollar conocimiento, revise este recurso educativo. 
+    p.mb-5(data-aos="fade-left") Las materias primas seleccionadas para la elaboración de alimento animal, son una fuente que define la composición de un alimento; en consecuencia, su adecuación, recepción y evaluación son acciones constantes para determinar la calidad y bienestar animal.  A continuación, se describen algunas técnicas planeadas desde la inocuidad y calidad de los productos. Estas técnicas ofrecen unos alimentos sanos y seguros, tanto para los animales como para los consumidores finales. ¿Ha escuchado sobre las técnicas de selección, adecuación, recepción y evaluación? Para más información, que le ayudará a desarrollar conocimiento, revise este recurso educativo. 
 
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
       .row.justify-content-center.align-items-center(titulo="Selección")(data-aos="flip-up")
@@ -309,7 +309,7 @@
             img(src='@/assets/curso/temas/tema1/25.png', alt='Texto que describa la imagen')
         .col-md-7.mb-4.mb-md-0.p-4
           p Esta técnica se centra en la selección de los ingredientes o materias primas que se usarán en la ración animal. Se hace necesario hacer un listado de estas materias, que se deben comprar a proveedores que garanticen un producto seguro porque cumple con las especificaciones estipuladas para cada materia prima.
-          p Los proveedores deben suministrar las especificaciones exactas de los productos, para así realizar una formulación mucho más precisa de las raciones. Tenga cuidado, cuando cambie de proveedor, de solicitar las especificaciones de las materias primas, ya que pueden tener una variación significativa con respecto a trazas de medicamentos o alguna alteración. 
+          p Los proveedores deben suministrar las especificaciones exactas de los productos, para así realizar una formulación mucho más precisa de las raciones. Tenga cuidado, cuando cambie de proveedor, deben solicitar las especificaciones de las materias primas, ya que pueden tener una variación significativa con respecto a trazas de medicamentos o alguna alteración. 
           p Finalmente, cuando usted haga una selección de los ingredientes o materias primas, tenga presente los componentes nutricionales, energéticos y proteicos.
 
       .row.justify-content-center.align-items-center(titulo="Adecuación")

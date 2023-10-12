@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Generalidades en la preparación de raciones para especies animales',
     descripcionCurso:
-      'El presente componente de formación surge de la necesidad de aproximarse a la alimentación animal como un componente importante en la producción porque es la base fundamental para la expresión genética de los mismos. La preparación de raciones es un componente importante en la nutrición animal para llegar a alcanzar los diferentes requerimientos energéticos, proteicos, vitamínicos y minerales, logrando así un sistema productivo rentable, bajo los lineamientos de unas buenas prácticas de alimentación.',
+      'La alimentación animal es una parte fundamental en el proceso de producción. La preparación de raciones alimenticias, es importante en la nutrición animal con el fin de alcanzar los diferentes requerimientos energéticos, proteicos, vitamínicos y minerales, logrando así un sistema productivo rentable, bajo los lineamientos de unas buenas prácticas de alimentación.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -33,7 +33,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Materias primas para el alimento animal',
+        titulo: 'Materias primas para alimento animal',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -43,7 +43,7 @@ export default {
           },
           {
             numero: '1.2',
-            titulo: 'Características de la perecibilidad',
+            titulo: 'Características de perecibilidad',
             hash: 't_1_2',
           },
           {
@@ -203,7 +203,7 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Aditivo ',
+      termino: 'Aditivo',
       significado:
         'Ingrediente adicionado a los productos, ya sea para aumentar su palatabilidad o su transformación, así como su componente nutricional.',
     },
@@ -218,17 +218,17 @@ export default {
         'Lugar o espacio donde se organizan las materias primas, subproductos o productos. ',
     },
     {
-      termino: 'Contaminación cruzada ',
+      termino: 'Contaminación cruzada',
       significado:
         'Proceso donde se altera un producto o materia prima, ya sea por bacterias, otra materia prima, medicamentos, etc. Se produce principalmente por el manipulador de alimentos. ',
     },
     {
-      termino: 'Formula alimenticia',
+      termino: 'Fórmula alimenticia',
       significado:
         'Es una secuencia de elementos llamados ingredientes, en los cuales se relacionan cantidades de los mismos.',
     },
     {
-      termino: 'Fuerza centrífuga ',
+      termino: 'Fuerza centrífuga',
       significado:
         'Es la fuerza ejercida en un cilindro o círculo del centro hacia afuera.',
     },
@@ -238,12 +238,12 @@ export default {
         'Cantidad de producto o insumo que se fabrica en un solo ciclo (fecha de fabricación es la misma), la característica especial es ser homogéneo.',
     },
     {
-      termino: 'Peletizar ',
+      termino: 'Peletizar',
       significado:
         'Es un proceso mecánico donde se realiza una mezcla de ingredientes previamente molidos; son humedecidos y calentados con vapor, luego, son compactados en pequeños cilindros.   ',
     },
     {
-      termino: 'Registro ',
+      termino: 'Registro',
       significado:
         'Acción de registrar una actividad, acción, comportamiento, eventualidad, entre otros.  ',
     },

@@ -12,7 +12,7 @@
         figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema2/1.png', alt='Texto que describa la imagen')
       .col-lg-8
-        p(data-aos="fade-left") La higienización de materias primas animales es una combinación de los procesos de limpieza y desinfección, cuyo objetivo es garantizar un producto inocuo, libre de patógenos contaminantes. Es importante considerar en todo momento los efectos potenciales de las actividades de la producción primaria sobre la inocuidad y la idoneidad de los alimentos. Esto incluye la identificación de cualquier punto específico de dichas actividades en el que pueda existir una alta probabilidad de contaminación y así tomar medidas para reducir al mínimo y, de ser posible, eliminar esta probabilidad (FAO, 2020). 
+        p(data-aos="fade-left") La higienización de materias primas animales, es una combinación de los procesos de limpieza y desinfección, cuyo objetivo es garantizar un producto inocuo, libre de patógenos contaminantes. Es importante considerar en todo momento los efectos potenciales de las actividades de la producción primaria sobre la inocuidad y la idoneidad de los alimentos. Esto incluye la identificación de cualquier punto específico de dichas actividades en el que pueda existir una alta probabilidad de contaminación y así tomar medidas para reducir al mínimo y, de ser posible, eliminar esta probabilidad (FAO, 2020). 
         p(data-aos="fade-left") El control de las fuentes de contaminación es una forma efectiva para hacer frente a la alteración física y química de materias primas; dentro de este, se puede encontrar:
 
 

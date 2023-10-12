@@ -12,7 +12,7 @@
         figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema3/1.png', alt='Texto que describa la imagen')
       .col-lg-8
-        p(data-aos="fade-left") Una ración se define como una provisión diaria de alimento o forraje planeada para una dieta de un animal. Esta es determinada según su estado de desarrollo. Para la composición de esta dieta, se seleccionan materias primas o productos balanceados y que tienen una determinada concentración de ingredientes para la satisfacción de los requerimientos energéticos, proteicos y minerales de los animales. Es importante conocer las características nutricionales de un alimento para así identificar las interacciones que dicho alimento generará en el animal. La gran mayoría de materias primas provienen de los vegetales, que aportan valores nutricionales a un costo relativamente más económico. Dentro de los nutrientes que están en las dietas de los animales, se clasifican:
+        p(data-aos="fade-left") Una ración se define como una provisión diaria de alimento o forraje planeada para la dieta de un animal. Esta es determinada según su estado de desarrollo. Para la composición de esta dieta, se seleccionan materias primas o productos balanceados y que tienen una determinada concentración de ingredientes para la satisfacción de los requerimientos energéticos, proteicos y minerales de los animales. Es importante conocer las características nutricionales de un alimento para así identificar las interacciones que dicho alimento generará en el animal. La gran mayoría de materias primas provienen de los vegetales, que aportan valores nutricionales a un costo relativamente más económico. Dentro de los nutrientes que están en las dietas de los animales, se clasifican:
 
     .titulo-sexto.color-acento-contenido.offset-1.mt-5.mb-5
       h5 Tabla 2 #[em Nutrientes presentes en la dieta animal]
@@ -191,21 +191,27 @@
       .col-10
         TabsA.color-acento-contenido.mb-5.mt-5(data-aos="flip-up")
           .tarjeta.color-secundario--borde.p-4(titulo="Calorías (CAL)")
+            h4 Calorías (CAL)
             p Es la cantidad de calor necesaria para elevar un grado centígrado una molécula de H2O, por ejemplo, para pasar de 14.5 ºC a 15.5 ºC. Se pueden medir en kilocalorías, que son 1000 calorías (o 4.184 julios), o en megacalorías, que son 1.000.000 de calorías.
 
           .tarjeta.color-secundario--borde.p-4(titulo="Total de nutrimentos digestibles (TDN)")
+            h4 Total de nutrimentos digestibles (TDN)
             p Los nutrientes digestibles totales es un método en el cual se utilizan las matemáticas para tener un cálculo aproximado de la energía liberada por un ingrediente o materia prima, teniendo en cuenta los valores obtenidos por el análisis proximal.
 
           .tarjeta.color-secundario--borde.p-4(titulo="Energía bruta (EB)")
+            h4 Energía bruta (EB)
             p Es la energía que desprende un alimento al quemarse totalmente en una bomba calorimétrica. Es un parámetro aproximado de energía que se obtiene de forma rápida.
 
           .tarjeta.color-secundario--borde.p-4(titulo="Energía digestible (ED)")
+            h4 Energía digestible (ED)
             p Se obtiene de la resta entre energía bruta y la energía eliminada por las heces. Esta energía es la que se encuentra disponible para el animal.
 
           .tarjeta.color-secundario--borde.p-4(titulo="Energía metabolizable (EM)")
+            h4 Energía metabolizable (EM)
             p Proceso de pérdida producido por la orina y los gases de la digestión (rumiantes). Se observó para los rumiantes que el valor de energía metabolizable representa alrededor del 82 % de la energía digestible, por lo que la EM se puede estimar con tan solo multiplicar ED x 0.82. En cerdos y aves, la relación es mucho más variable, pero está cerca del 92 %, ED x 0.92 = EM.
 
           .tarjeta.color-secundario--borde.p-4(titulo="Energía neta (EN)")
+            h4 Energía neta (EN)
             p La energía neta es la energía metabolizable a la cual se le resta el incremento calórico del animal; esta energía es destinada para dos tipos de necesidades: la producción y el mantenimiento.
 
     .row.justify-content-center.align-items-center.mb-5
@@ -399,7 +405,7 @@
     separador 
     .titulo-segundo.color-secundario
       h2#t_3_3 3.3  Transformación materias primas
-    p.mb-5(data-aos="fade-left") La transformación de las diferentes materias primas es un proceso a través del cual una materia prima de valores nutricionales y costos bajos logra convertirse en una ración alimenticia con un valor nutricional alto. Este valor de producción se adiciona por medio de diferentes técnicas que agregan un valor al componente nutricional e inocuo de las materias primas.  Dentro de las técnicas de transformación, se encuentran el lavar, pasteurizar, congelar, envasar, peletizar, extrudizar y la adición de conservantes, entre otros factores. Dentro de la transformación de los alimentos o raciones, los métodos más conocidos son los #[i pellets] y #[i extrudes]. A continuación, se describe cada uno de los métodos de transformación. 
+    p.mb-5(data-aos="fade-left") La transformación de las diferentes materias primas es un proceso a través del cual una materia prima de valores nutricionales y costos bajos logra convertirse en una ración alimenticia con un valor nutricional alto. Este valor de producción se adiciona por medio de diferentes técnicas que agregan un valor al componente nutricional e inocuo de las materias primas.  Dentro de las técnicas de transformación, se encuentran lavar, pasteurizar, congelar, envasar, peletizar, extrudizar y la adición de conservantes, entre otros factores. Dentro de la transformación de los alimentos o raciones, los métodos más conocidos son los #[i pellets] y #[i extrudes]. A continuación, se describe cada uno de los métodos de transformación. 
 
     .row.justify-content-center.align-items-center(data-aos="flip-up")
       .tarjeta.tarjeta--gris.p-4.mb-5
@@ -460,7 +466,7 @@
 
     separador 
     .titulo-segundo.color-secundario
-      h2#t_3_4 3.4  Transformación materias primas
+      h2#t_3_4 3.4  Criterios e interpretación de fórmulas
     
     p.mb-5(data-aos="fade-left") Uno de los errores comunes en la nutrición animal es confundir alimentar con formular. Cualquier persona puede realizar una formulación sin un conocimiento previo de nutrición, siguiendo unos requerimientos dados; pero la verdadera aplicación de la formulación animal es comprender al animal, su estado fisiológico, su anatomía, su etapa de desarrollo y los diferentes requerimientos nutricionales que cada uno de estos factores genera en el animal. La importancia de este proceso es la aplicación de las fórmulas y los valores nutricionales adecuados para cada alimento animal. Las diferentes fórmulas empleadas deben tener los siguientes criterios:
 

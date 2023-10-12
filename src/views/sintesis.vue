@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-5 A continuación, se describen los temas principales del componente formativo, Generalidades en la preparación de raciones para especies animales, en el cuál se incluyen aspectos sobre las materias primas para el alimento animal, la aplicación de higienización, una dieta adecuada y equipos para la ración animal, como también lo referente a la seguridad y salud en el trabajo.
+    p.mb-5 La nutrición animal desempeña un papel crucial en todo el proceso de producción. La formulación precisa de dietas para los animales es de gran importancia, ya que garantiza el cumplimiento de sus distintas necesidades de energía, proteínas, vitaminas y minerales. Este enfoque contribuye directamente a la rentabilidad del sistema productivo, manteniéndose en consonancia con los principios de las mejores prácticas de alimentación. En el siguiente mapa conceptual, podrá visualizar la ruta de saberes tratados.
 
     .row.justify-content-center
       .col-lg-10.mb-5
