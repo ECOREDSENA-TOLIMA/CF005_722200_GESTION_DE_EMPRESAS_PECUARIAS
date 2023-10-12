@@ -8,7 +8,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="n la figura con la síntesis, se resalta la nutrición animal en todo el proceso de producción. La formulación precisa de dietas para los animales es de gran importancia, ya que garantiza el cumplimiento de sus distintas necesidades de energía, proteínas, vitaminas y minerales. Este enfoque contribuye directamente a la rentabilidad del sistema productivo, manteniéndose en consonancia con los principios de las mejores prácticas de alimentación. En el siguiente mapa conceptual, podrá visualizar la ruta de saberes tratados.")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono

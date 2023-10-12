@@ -23,7 +23,7 @@
           .tarjeta(style="background-color: #E2E8EC; height:100%")
             .text-black.p-4
               h2.text-center Control de calidad de agua
-              p Se debe asegurar que el agua seleccionada para la elaboración o limpieza de materias primas sea un agua bajo condiciones de potabilidad que no generen riesgo para el animal.
+              p Se debe asegurar que el agua seleccionada para la elaboración o limpieza de materias primas este bajo condiciones de potabilidad que no generen riesgo para el animal.
 
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
@@ -41,7 +41,7 @@
               h2.text-center Control de calidad de higiene de elementos
               p La inspección de máquinas procesadoras, mezcladoras, mesones, palas, entre otros, es una actividad que debe realizarse constantemente, porque así se garantiza la limpieza y desinfección.
 
-      p.mt-5(data-aos="fade-left") Como se ha mencionado antes, la higienización es un proceso centrado en la limpieza y desinfección. Este debe estar orientado a minimizar el riesgo de contaminación cuando se aseguran las condiciones microbiológicas de las diferentes materias primas y se restablece el funcionamiento habitual de las instalaciones y de los diferentes utensilios tras realizar las actividades de cada área de producción.  Es fundamental evaluar el riesgo, tanto de un producto terminado como de la materia prima utilizada, a partir de los factores que se presentan en la siguiente tabla. 
+      p.mt-5(data-aos="fade-left") Como se ha mencionado antes, la higienización es un proceso centrado en la limpieza y desinfección. Este debe estar orientado a minimizar el riesgo de contaminación cuando se aseguran las condiciones microbiológicas de las diferentes materias primas y se restablece el funcionamiento habitual de las instalaciones y de los distintos utensilios tras realizar las actividades de cada área de producción.  Es fundamental evaluar el riesgo, tanto de un producto terminado como de la materia prima utilizada, a partir de los factores que se presentan en la siguiente tabla. 
 
     .titulo-sexto.color-acento-contenido.offset-1
       h5 Tabla 1 #[em Factores de disminución y aumento del riesgo]
@@ -206,7 +206,7 @@
                   img(src='@/assets/curso/temas/tema2/8.svg', alt='Texto que describa la imagen')
               
             h2.text-center.text-white Manuales
-            p.text-center.text-white Los métodos manuales son todos los métodos que consisten en frotar, cepillar y rociar con agua a grandes presiones, donde se puede realizar un barrido húmedo, con escobas, cepillos, enjuagado, y tratamiento con espumas o geles.
+            p.text-center.text-white Los métodos manuales son todos aquellos que consisten en frotar, cepillar y rociar con agua a grandes presiones, donde se puede realizar un barrido húmedo, con escobas, cepillos, enjuagado, y tratamiento con espumas o geles.
 
           .col-md.tarjeta.color.p-4(style="background-color:#3B5620")(data-aos="flip-up") 
             .row.justify-content-center.mb-4

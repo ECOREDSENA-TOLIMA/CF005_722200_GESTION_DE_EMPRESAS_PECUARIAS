@@ -388,6 +388,7 @@
           img(src='@/assets/curso/temas/tema3/16.svg', alt='Texto que describa la imagen')
       .col-md-11
         p(data-aos="fade-left") Existen métodos computarizados especializados para la formulación de raciones, los cuales emplean las grandes industrias alimenticias, para así generar una adición completa y exacta de vitaminas, minerales, proteínas, aditivos, aminoácidos esenciales, entre otros. Dentro de estos, se pueden encontrar las diferentes tablas de #[em Excel], el componente #[em SOLVER], entre otros.
+        p #[b Nota]: Las tablas de composición de los alimentos se anexan en el material complementario como documentos de apoyo.
         
     separador 
     .titulo-segundo.color-secundario
@@ -400,7 +401,7 @@
       .col-lg-8
         p(data-aos="fade-left") El tratamiento de las raciones está orientado a ofrecer inocuidad y confiabilidad de los alimentos cuando se asegura una ración alimenticia libre de patógenos que alteran el metabolismo animal. Esto genera retrasos e inconvenientes en la producción.
         .tarjeta.p-4(style="background-color:#DBF9BD")(data-aos="flip-up")
-          p(data-aos="fade-left") El tratamiento más utilizado en las industrias alimenticias es a base de calor, donde se realiza en corto tiempo la elevación de temperaturas, logrando un efecto de compresión y descompresión. Esto destruye los componentes bacterianos o microorganismo y se evita la pérdida de nutrientes de la ración o alimento. Dentro del tratamiento dado a las raciones, la eliminación de impurezas que pueden resultar del proceso es una actividad de importancia para asegurar la calidad del producto, ya que se pueden eliminar impurezas tales como metales, piedras, entre otros, de las materias primas utilizadas; esta puede ser realizada por métodos manuales, como el zarandeo, o tecnificados, como por aspiración.  
+          p(data-aos="fade-left") El tratamiento más utilizado en las industrias alimenticias es a base de calor, se realiza en corto tiempo la elevación de temperaturas, logrando un efecto de compresión y descompresión. Esto destruye los componentes bacterianos o microorganismo y se evita la pérdida de nutrientes de la ración o alimento. Dentro del tratamiento dado a las raciones, la eliminación de impurezas que pueden resultar del proceso es una actividad de importancia para asegurar la calidad del producto, ya que se pueden eliminar impurezas tales como metales, piedras, entre otros, de las materias primas utilizadas; esta puede ser realizada por métodos manuales, como el zarandeo, o tecnificados, como por aspiración.
 
     separador 
     .titulo-segundo.color-secundario
@@ -414,7 +415,7 @@
             .col-md-6.mb-4.mb-md-0
               h4 Molienda
               p Proceso que se le realiza a las materias primas, en especial a los granos, a través de herramientas o máquinas que fracturan el producto,  para lograr una mejor mezcla en la ración y digestibilidad por parte de los animales. 
-              p La molienda se puede separar en pre-molienda y post-molienda. La pre-molienda se realiza principalmente a materias primas que posteriormente serán almacenadas, y la post-molienda es antes del proceso de mezcla.
+              //- p La molienda se puede separar en pre-molienda y post-molienda. La pre-molienda se realiza principalmente a materias primas que posteriormente serán almacenadas, y la post-molienda es antes del proceso de mezcla.
             .col-md-6
               figure
                 img(src='@/assets/curso/temas/tema3/18.jpg', alt='Texto que describa la imagen')
@@ -456,7 +457,7 @@
             .cajon.p-3.mb-2(style="background-color:#3B5620")(data-aos="flip-up")
               p.text-small(style="color:#FFFAD0")(data-aos="fade-left") Los ingredientes de baja densidad deben agregarse primero. Entre ellos, se encuentra el heno o paja. Cuando se agrega de primero, se asegura una mezcla homogénea de los ingredientes y esto evita la selección por parte del animal.
             .cajon.p-3.mb-2(style="background-color:#3B5620")(data-aos="flip-up")
-              p.text-small(style="color:#FFFAD0")(data-aos="fade-left") Las materias primas que sean similares, frente a su tamaño y densidades, son propensas a mezclarse fácil y rápidamente. Por ejemplo: se pueden colocar los granos molidos, harinas, extruidos y pellets frente a densidades que son muy parecidas. Posteriormente a esto, se deben agregar los diferentes minerales y aditivos, todos los ingredientes que se usan en más bajas proporciones.
+              p.text-small(style="color:#FFFAD0")(data-aos="fade-left") Las materias primas que sean similares, frente a su tamaño y densidades, son propensas a mezclarse fácil y rápidamente. Por ejemplo: se pueden colocar los granos molidos, harinas, extruidos y #[i pellets] frente a densidades que son muy parecidas. Posteriormente a esto, se deben agregar los diferentes minerales y aditivos, todos los ingredientes que se usan en más bajas proporciones.
             .cajon.p-3.mb-2(style="background-color:#3B5620")(data-aos="flip-up")
               p.text-small(style="color:#FFFAD0")(data-aos="fade-left") Cuando se adicionan minerales a las materias primas o ingredientes, se debe garantizar una mezcla homogénea. El tiempo de preparación es de tres (3) minutos.
             .cajon.p-3.mb-2(style="background-color:#3B5620")(data-aos="flip-up")
@@ -507,7 +508,6 @@
             img(src='@/assets/curso/temas/tema3/24.svg', alt='Texto que describa la imagen')
         .col-md-7.mb-4.mb-md-0.p-4
           p Las instalaciones sugeridas en las buenas prácticas deben estar construidas, adaptadas, ubicadas y mantenidas con el propósito de beneficiar un proceso, al margen de errores mínimos de riesgos. Las instalaciones deben mantenerse limpias y desinfectadas, de acuerdo con protocolos. Además, tener las áreas con buena iluminación, temperatura, humedad y ventilación, para evitar plagas. Cuando planee una instalación, tenga presente:
-          p Cuando planee una instalación, tenga presente:
           p 1. Separación de las diferentes áreas productivas
           p 2. Almacenamiento
           p 3. Control de calidad

@@ -206,7 +206,7 @@
     ImagenInfograficaB.color-primario.mb-5
       template(v-slot:imagen)
         figure(data-aos="flip-up")
-          img(src='@/assets/curso/temas/tema1/12.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema1/12.svg', alt='Imagen decorativa')
       div(x="20%" y="40%" tooltip="tooltip de max 35 caracteres" numero="1")
         SlyderA(tipo="b")
           .row.justify-content-center
