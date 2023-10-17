@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Materias primas para alimento animal
+      h1 Materias primas para el alimento animal
 
     p.mb-5(data-aos="fade-left") Las materias primas son la base fundamental para la alimentación animal porque de ellas se obtienen los nutrientes necesarios para suplir las necesidades nutricionales de los animales. Para ello, se deben considerar diferentes factores, como son:
     
@@ -198,7 +198,7 @@
           p En caso de presentarse una alteración de la materia prima, ya sea por rancidez o caducidad, en la inspección se debe identificar, separar y determinar la causa de dicha alteración.
     separador 
     .titulo-segundo.color-secundario
-      h2#t_1_2 1.2  Características de perecibilidad
+      h2#t_1_2 1.2  Características de la perecibilidad
 
     p(data-aos="fade-left") En la gestión del acopio y almacenamiento de las diferentes materias primas, es importante conocer e identificar sus características con respecto a la perecibilidad. La perecibilidad se define como el deterioro de las materias primas o alimentos por condiciones físicas, químicas o biológicas. Las características de la perecibilidad son generalmente determinadas por la vida útil del producto, es decir, por la duración de la materia prima en condiciones de calidad organolépticas óptimas y de calidad aceptable, ya sean de horas o días, a temperatura ambiente (Aguilar, 2012).
     p.mb-5(data-aos="fade-left") #[em Madigan] et al. (2000) definen el deterioro de materias primas o alimentos como cualquier cambio en el aspecto visual, olor o sabor de un producto alimenticio que lo hace inaceptable para el consumidor. Entendiendo esta afirmación de los autores con respecto a las condiciones de cambios o alteraciones, se deben comprender los factores que afectan directa o indirectamente el producto o materia prima. Observe el siguiente recurso de aprendizaje para más información. 

@@ -272,7 +272,7 @@
                 .col
                   p.text-small Para obtener más información sobre los productos de limpieza más utilizados dentro de los grupos de jabones y detergentes, se sugiere leer el Anexo I: “Guía para el desarrollo de normas de higienización de los piensos” (Fundación CESFAC, 2007), desde la página 97 hasta la 103.  
                 .col-sm-auto
-                  a.boton.color-acento-contenido(:href="obtenerLink('/downloads/Anexo1_Guia_para_el_desarrollo_de_normas_de_higienización_de_los_piensos.pdf')" target="_blank")
+                  a.boton.color-acento-contenido(:href="obtenerLink('/downloads/Guia_para_el_desarrollo_de_normas_de_higienización_de_los_piensos.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-download
 

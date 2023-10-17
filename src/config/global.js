@@ -33,7 +33,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Materias primas para alimento animal',
+        titulo: 'Materias primas para el alimento animal',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -43,7 +43,7 @@ export default {
           },
           {
             numero: '1.2',
-            titulo: 'Características de perecibilidad',
+            titulo: 'Características de la perecibilidad',
             hash: 't_1_2',
           },
           {
@@ -88,7 +88,7 @@ export default {
           {
             numero: '3.5',
             titulo:
-              'Buenas prácticas de fabricación de alimentos de uso animal',
+              'Buenas prácticas de elaboración de alimentos de uso animal',
             hash: 't_3_5',
           },
         ],

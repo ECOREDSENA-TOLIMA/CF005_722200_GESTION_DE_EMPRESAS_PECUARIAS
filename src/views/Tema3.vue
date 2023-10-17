@@ -92,10 +92,14 @@
           p.text-small Es utilizada para el análisis de la proteína cruda, siendo una de las más importantes hablando de nutrición animal. Lo que se determina es el nitrógeno total que se libera en una digestión química, multiplicado por el factor 6.25 proveniente de un cálculo realizado, donde 100 g de proteína contienen 16 g de nitrógeno, 100 ÷ 16 = 6.25, siendo este un valor constante. Como limitante de este análisis, está la no diferenciación entre el nitrógeno no proteico y el proteico, ya que el no proteico no es absorbido por los monogástricos. 
           p.text-small Ejemplo: 
 
-          .titulo-sexto.color-acento-contenido
+          //- .titulo-sexto.color-acento-contenido
             h5 Figura 4.
             span  #[i  Fórmula proteína bruta]
-          figure.mb-3
+          h4.text-center Proteína bruta
+          P.text-center 1 gramo de maíz ---------------------------- 7.68 % de nitrógeno
+          p.text-center % PB= 7.68 x 6.25= 48 % de proteína bruta
+
+          //- figure.mb-3
             img(src='@/assets/curso/temas/tema3/35.svg', alt='En la figura se observa que para 1 gramo de maíz se tiene de 7.68 % de nitrógeno, igualmente se tiene que el porcentaje PB es igual a 7.68 por 6.25 igual a 48 porciento de proteína bruta.')
 
           h6 ● Tercera muestra
@@ -107,7 +111,7 @@
           p.text-small Es utilizado en el manejo de forrajes y pastos. El método propone una separación de los componentes de la fibra que ayudan a determinar mejor cada uno, porque el análisis proximal no los diferencia como primer procedimiento para la determinación de estos componentes. El análisis de #[i “Van Soest”] realiza una separación de las capas fibrilares del forraje, por medio de una sustancia detergente neutra. El resultado de esto es llamado fibra detergente neutra (FDN) y el restante que desaparece se presume que es el componente digestible. Seguido a esto, al componente de hemicelulosa se le aplica una solución ácida detergente, la cual es digerida, y al resultado se le llama fibra detergente ácido. En el último paso, se oxida, para disolver la lignina, y se obtiene la celulosa como remanente, que después se incinera. Los pasos anteriores son calculados de acuerdo con su desaparición.
         .col-md-11
           .titulo-sexto.color-acento-contenido
-            h5 Figura 5.
+            h5 Figura 4.
             span #[em Diferencias entre el análisis proximal y método de Van Soest]
           figure
             img(src='@/assets/curso/temas/tema3/7.svg', alt='En la figura se observa análisis proximal, humedad con el agua, materia seca como proteina bruta, extracto etéreo, fibra bruta, extracto libre de nitrógeno, cenizas, el análisis de "Van Soest" contenido celular, proteína cruda, grasa cruda, azúcar, almidón, pectinas, igualmente la pared celular con hemicelulosa FDN, celulosa FDA, lignina.')
@@ -246,7 +250,7 @@
         p Sumado a lo expuesto, se le sugiere observar el siguiente gráfico, que presenta la distribución de la energía.
 
     .titulo-sexto.color-acento-contenido.offset-2
-      h5 Figura 6
+      h5 Figura 5
       span #[em Distribución de la energía]
 
     .row.justify-content-center.align-items-center.mt-5.mb-5
@@ -272,7 +276,7 @@
         p(data-aos="fade-left") Finalmente, se realiza una ecuación, donde se toma cada valor de las partes lo multiplicamos por 100 y lo dividimos por la sumatoria total de ambas partes; este resultado lo multiplicamos por la cantidad total de alimento a realizar, para obtener cuánto debemos agregar de dicho alimento. A continuación, se presenta un ejemplo:
 
     .titulo-sexto.color-acento-contenido.offset-2
-      h5 Figura 7
+      h5 Figura 6
       span #[em Ejemplo método de cuadrado de Pearson Simple]
     
     .row.justify-content-center.align-items-center.mt-5
@@ -415,7 +419,7 @@
             .col-md-6.mb-4.mb-md-0
               h4 Molienda
               p Proceso que se le realiza a las materias primas, en especial a los granos, a través de herramientas o máquinas que fracturan el producto,  para lograr una mejor mezcla en la ración y digestibilidad por parte de los animales. 
-              //- p La molienda se puede separar en pre-molienda y post-molienda. La pre-molienda se realiza principalmente a materias primas que posteriormente serán almacenadas, y la post-molienda es antes del proceso de mezcla.
+              p La molienda se puede separar en pre-molienda y post-molienda. La pre-molienda se realiza principalmente a materias primas que posteriormente serán almacenadas, y la post-molienda es antes del proceso de mezcla.
             .col-md-6
               figure
                 img(src='@/assets/curso/temas/tema3/18.jpg', alt='Texto que describa la imagen')
@@ -486,7 +490,7 @@
 
     separador 
     .titulo-segundo.color-secundario
-      h2#t_3_5 3.5  Buenas prácticas de fabricación de alimentos de uso animal
+      h2#t_3_5 3.5  Buenas prácticas de elaboración de alimentos de uso animal
 
     p(data-aos="fade-left") Las buenas prácticas de elaboración de los alimentos de uso animal son todas las acciones involucradas en este aspecto que brindan un estándar de inocuidad y calidad, según las diferentes normas y lineamientos que ofrecen a las diferentes especies un alimento de calidad.
     p(data-aos="fade-left") Las buenas prácticas de fabricación de alimentos (BPFA) constituyen el factor tendiente para asegurar que los alimentos se fabriquen en forma uniforme y controlada, de acuerdo con normas de calidad, el uso que se pretende dar y conforme con las condiciones establecidas para su comercialización (ICA, 1998).

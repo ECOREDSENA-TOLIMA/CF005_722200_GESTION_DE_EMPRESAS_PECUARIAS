@@ -158,7 +158,7 @@
         p.mb-5(data-aos="fade-left") Con todo lo mencionado anteriormente, se le invita a observar el siguiente mapa de distribución de procesos de elaboración de raciones animales. Identificar esto es fundamental para comprender los tiempos de elaboración de las raciones.
 
     .titulo-sexto.color-acento-contenido.offset-2
-      h5 Figura 8
+      h5 Figura 7
       span #[em Mapa de distribución de procesos]
     
     .row.justify-content-center.mt-5
