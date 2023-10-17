@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="505" height="737" viewBox="0 0 505 737">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f9fef5"/>
+      <stop offset="1" stop-color="#e7f7f8"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_325012" data-name="Rectángulo 325012" width="349.672" height="241" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1071227" data-name="Grupo 1071227" transform="translate(1311 6143)">
+    <g id="Grupo_1071184" data-name="Grupo 1071184" transform="translate(32 162)">
+      <path id="Trazado_815299" data-name="Trazado 815299" d="M0,0H505V737H0Z" transform="translate(-1343 -6305)" fill="url(#linear-gradient)"/>
+      <g id="Grupo_1071176" data-name="Grupo 1071176" transform="translate(-1362.9 -6260.187)" opacity="0.6" style="isolation: isolate">
+        <g id="Grupo_260744" data-name="Grupo 260744" transform="translate(116.883 63.574)">
+          <g id="Grupo_260743" data-name="Grupo 260743" clip-path="url(#clip-path)">
+            <path id="Trazado_278536" data-name="Trazado 278536" d="M448.278,304.074H135.3c-9.9,0-17.922-9.373-17.922-20.936V85.01c0-11.563,8.023-20.936,17.922-20.936H448.278c9.9,0,17.922,9.373,17.922,20.936V283.138c0,11.563-8.023,20.936-17.922,20.936" transform="translate(-116.955 -63.574)" fill="#dbf9bd"/>
+            <rect id="Rectángulo_325011" data-name="Rectángulo 325011" width="348.816" height="240" rx="20.936" transform="translate(0.428 0.5)" fill="none" stroke="#04294f" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="6.994 6.994"/>
+          </g>
+        </g>
+      </g>
+      <text id="Alimentos" transform="translate(-1335.341 -6222.408)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Alimen</tspan><tspan y="0" letter-spacing="-0.015em">t</tspan><tspan y="0">os</tspan></text>
+      <text id="_7_50_" data-name="7,50 %" transform="translate(-1226.017 -6130.926)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">7,50 %</tspan></text>
+      <text id="_36_80_" data-name="36,80 %" transform="translate(-1231.017 -6009.39)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">36,80 %</tspan></text>
+      <text id="_18_8_" data-name="18,8 %" transform="translate(-969.392 -6130.926)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">18,8 %</tspan></text>
+      <text id="_18_" data-name="18 %" transform="translate(-1093.319 -6077.502)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">18 %</tspan></text>
+      <text id="_10_5_" data-name="10,5 %" transform="translate(-969.392 -6009.39)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">10,5 %</tspan></text>
+      <text id="Maíz_" data-name="Maíz " transform="translate(-1316.341 -6131.142)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Maíz </tspan></text>
+      <text id="nacional" transform="translate(-1329.341 -6109.542)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">nacional</tspan></text>
+      <text id="Soja_" data-name="Soja " transform="translate(-1314.341 -6014.214)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Soja </tspan></text>
+      <text id="tostada" transform="translate(-1325.341 -5992.614)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0" letter-spacing="-0.014em">t</tspan><tspan y="0">ostada</tspan></text>
+      <text id="Partes" transform="translate(-965.954 -6234.57)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0" letter-spacing="-0.005em">P</tspan><tspan y="0">a</tspan><tspan y="0" letter-spacing="0.024em">r</tspan><tspan y="0">tes</tspan></text>
+      <text id="Proteína_" data-name="Proteína " transform="translate(-1234.228 -6244.788)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">P</tspan><tspan y="0" letter-spacing="-0.017em">r</tspan><tspan y="0">oteína </tspan></text>
+      <text id="bruta" transform="translate(-1219.228 -6223.188)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">bruta</tspan></text>
+      <text id="Concentración_" data-name="Concentración " transform="translate(-1133.468 -6244.787)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Concent</tspan><tspan y="0" letter-spacing="-0.013em">r</tspan><tspan y="0">ación </tspan></text>
+      <text id="bruta-2" data-name="bruta" transform="translate(-1093.468 -6223.187)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">bruta</tspan></text>
+      <text id="_18_8_x_100_" data-name="18,8 x 100 " transform="translate(-1253.341 -5901.348)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">18,8 x 100 </tspan></text>
+      <text id="_29_3_" data-name="29,3 " transform="translate(-1229.341 -5874.798)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">29,3 </tspan></text>
+      <text id="_" data-name="=  " transform="translate(-1161.228 -5893.176)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">=  </tspan></text>
+      <text id="_64_2_" data-name="   64,2 %" transform="translate(-1151.728 -5893.176)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0" xml:space="preserve">   64,2 %</tspan></text>
+      <line id="Línea_801" data-name="Línea 801" x2="85" transform="translate(-1252.841 -5896.5)" fill="none" stroke="#12263f" stroke-miterlimit="10" stroke-width="1"/>
+      <text id="_2" data-name="=  " transform="translate(-980.196 -5893.169)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">=  </tspan></text>
+      <text id="_35_8_" data-name="  35,8 %" transform="translate(-972.404 -5893.169)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0" xml:space="preserve">  35,8 %</tspan></text>
+      <text id="_29_3_2" data-name="29,3 " transform="translate(-1041.655 -5874.791)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">29,3 </tspan></text>
+      <text id="_10_5_x_100" data-name="10,5 x 100" transform="translate(-1066.459 -5901.341)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">10,5 x 100</tspan></text>
+      <line id="Línea_802" data-name="Línea 802" x2="82" transform="translate(-1066.149 -5896.5)" fill="none" stroke="#12263f" stroke-miterlimit="10" stroke-width="1"/>
+      <g id="Grupo_1071180" data-name="Grupo 1071180" transform="translate(461.913 -834)">
+        <line id="Línea_804" data-name="Línea 804" x2="57.016" y2="31.134" transform="translate(-1627.099 -5300.184)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Trazado_278538" data-name="Trazado 278538" d="M284.306,156.752c-.833-2.836.274-6.94,1.576-9.5a27.267,27.267,0,0,0,5.38,13.295c-4.818-.577-9.648.842-14.093,2.661,1.688-2.577,4.132-5.488,7.137-6.46" transform="translate(-1855.095 -5426.187)" fill="#12263f"/>
+        <line id="Línea_807" data-name="Línea 807" y1="39.086" x2="51.889" transform="translate(-1621.24 -5221.565)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Trazado_278541" data-name="Trazado 278541" d="M285.1,205.106c-2.927-.412-6.209-3.114-8-5.354a27.262,27.262,0,0,0,14.33.585c-2.514,4.151-3.215,9.136-3.392,13.936-1.651-2.6-3.294-6.029-2.939-9.167" transform="translate(-1855.095 -5426.187)" fill="#12263f"/>
+      </g>
+      <g id="Grupo_1071181" data-name="Grupo 1071181" transform="translate(416.194 -834)">
+        <line id="Línea_805" data-name="Línea 805" x2="57.016" y2="31.134" transform="translate(-1462.682 -5221.438)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Trazado_278539" data-name="Trazado 278539" d="M418.44,235.5c-.833-2.836.274-6.94,1.576-9.5A27.267,27.267,0,0,0,425.4,239.3c-4.818-.577-9.648.842-14.093,2.661,1.688-2.577,4.132-5.488,7.137-6.46" transform="translate(-1824.813 -5426.187)" fill="#12263f"/>
+        <line id="Línea_808" data-name="Línea 808" y1="39.086" x2="51.889" transform="translate(-1459.838 -5300.311)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Trazado_278542" data-name="Trazado 278542" d="M416.221,126.36c-2.927-.412-6.209-3.114-8-5.353a27.272,27.272,0,0,0,14.33.584c-2.514,4.151-3.215,9.136-3.392,13.936-1.651-2.6-3.294-6.029-2.939-9.167" transform="translate(-1824.813 -5426.187)" fill="#12263f"/>
+      </g>
+      <rect id="Rectángulo_376058" data-name="Rectángulo 376058" width="438" height="251" transform="translate(-1319 -5843)" fill="#fff"/>
+      <text id="_18_-_7_5_10_5" data-name="18 - 7,5 = 10,5" transform="translate(-1156.696 -5739.926)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">18 - 7,5 = 10,5</tspan></text>
+      <text id="_36_80_-_18_18_8" data-name="36,80 - 18 = 18,8" transform="translate(-1156.696 -5618.39)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">36,80 - 18 = 18,8</tspan></text>
+      <text id="_64_20_" data-name="64,20 %" transform="translate(-996.617 -5739.926)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">64,20 %</tspan></text>
+      <text id="_29_3" data-name="29,3" transform="translate(-1294.341 -5685.353)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">29,3</tspan></text>
+      <text id="_35_80_" data-name="35,80 %" transform="translate(-996.617 -5618.39)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">35,80 %</tspan></text>
+      <text id="Proporción_de_" data-name="Proporción de " transform="translate(-1025.696 -5808.762)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">P</tspan><tspan y="0" letter-spacing="-0.017em">r</tspan><tspan y="0">opo</tspan><tspan y="0" letter-spacing="-0.008em">r</tspan><tspan y="0">ción de </tspan></text>
+      <text id="fuentes" transform="translate(-999.636 -5787.162)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">fuentes</tspan></text>
+      <rect id="Rectángulo_376059" data-name="Rectángulo 376059" width="4.17" height="23.83" transform="translate(-1101.979 -5697.027)" fill="#12263f"/>
+      <rect id="Rectángulo_376060" data-name="Rectángulo 376060" width="23.83" height="4.17" transform="translate(-1111.809 -5687.198)" fill="#12263f"/>
+      <g id="Grupo_1071182" data-name="Grupo 1071182" transform="translate(-1239.046 -5746.679)">
+        <line id="Línea_923" data-name="Línea 923" x1="57.016" y2="31.134" transform="translate(6.249)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Trazado_815296" data-name="Trazado 815296" d="M884.417,156.752c.833-2.836-.274-6.94-1.576-9.5a27.266,27.266,0,0,1-5.38,13.3c4.818-.577,9.648.842,14.093,2.661-1.688-2.577-4.132-5.488-7.137-6.46" transform="translate(-877.461 -126.003)" fill="#12263f"/>
+      </g>
+      <g id="Grupo_1071183" data-name="Grupo 1071183" transform="translate(-1207.708 -5619.376) rotate(-120)">
+        <line id="Línea_923-2" data-name="Línea 923" y1="31.134" x2="57.016" transform="translate(0 6.075)" fill="none" stroke="#12263f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Trazado_815296-2" data-name="Trazado 815296" d="M7.137,6.46c-.833,2.836.274,6.94,1.576,9.5a27.266,27.266,0,0,1,5.38-13.3C9.275,3.238,4.445,1.819,0,0,1.688,2.577,4.132,5.488,7.137,6.46" transform="translate(49.173 0)" fill="#12263f"/>
+      </g>
+      <path id="Trazado_815297" data-name="Trazado 815297" d="M-896.345-6139.18h44v397.257H-922.3" fill="none" stroke="#12263f" stroke-width="1"/>
+      <path id="Trazado_815298" data-name="Trazado 815298" d="M-912.563-6139.18H-874.7v397.257h-48.6" transform="translate(0 122.546)" fill="none" stroke="#12263f" stroke-width="1"/>
+      <path id="Trazado_815300" data-name="Trazado 815300" d="M7.137,6.46c-.833,2.836.274,6.94,1.576,9.5a27.266,27.266,0,0,1,5.38-13.3C9.275,3.238,4.445,1.819,0,0,1.688,2.577,4.132,5.488,7.137,6.46" transform="translate(-918.795 -5610.62) rotate(-150)" fill="#12263f"/>
+      <path id="Trazado_815301" data-name="Trazado 815301" d="M7.137,6.46c-.833,2.836.274,6.94,1.576,9.5a27.266,27.266,0,0,1,5.38-13.3C9.275,3.238,4.445,1.819,0,0,1.688,2.577,4.132,5.488,7.137,6.46" transform="translate(-918.795 -5733.62) rotate(-150)" fill="#12263f"/>
+    </g>
+  </g>
+</svg>
